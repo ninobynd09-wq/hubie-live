@@ -1,0 +1,26 @@
+.env
+.env.*
+!.env.example
+run/
+data/
+recordings/
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+*.log
+*.ts
+*.flv
+*.mp4
+evals/results/
+evals/private_cases.json
+
+# Housebets session stuff (never public)
+profiles/
+shots/
+tools/housebets/hb.env
+
+# local Housebets account notes
+tools/housebets/README.md
+assets/official/emails/
+assets/official/x_posts/

@@ -1,0 +1,2117 @@
+{
+ "source": "live zero-bet rounds on housebets.com originals, 2026-11-08 (seeds and ids stripped)",
+ "exchanges": [
+  {
+   "method": "POST",
+   "path": "/dice/bet",
+   "request": {
+    "betNumber": 50.5,
+    "direction": "over",
+    "mode": "over",
+    "amount": 0,
+    "currency": 1,
+    "generation": "bee7f954-5dd1-47b0-adc5-65026737826a"
+   },
+   "response": {
+    "game": {
+     "id": 12415324,
+     "seedId": 38,
+     "gameId": "391fa77e-e043-4e8b-8d44-1b57733849b3",
+     "game": {
+      "id": "391fa77e-e043-4e8b-8d44-1b57733849b3",
+      "generation": "bee7f954-5dd1-47b0-adc5-65026737826a",
+      "seedId": 38,
+      "amount": 0,
+      "originalAmount": 0,
+      "payout": 0,
+      "payoutMultiplier": 0,
+      "nextPayoutMultiplier": 0,
+      "roundId": "391fa77e-e043-4e8b-8d44-1b57733849b3",
+      "nonce": 95,
+      "name": "dice",
+      "currency": 1,
+      "active": false,
+      "createdAt": "2026-11-08T08:03:31.046711311Z",
+      "updatedAt": "2026-11-08T08:03:31.046711311Z",
+      "deletedAt": null,
+      "finishedAt": "0001-01-01T00:00:00Z"
+     },
+     "rollOver": 50.5,
+     "betDirection": "over",
+     "fairnessVersion": "canonical-v2",
+     "mode": "over",
+     "rangeLo": 0,
+     "rangeHi": 0,
+     "winChance": 49.5,
+     "outcome": 45.1,
+     "createdAt": "2026-11-08T08:03:31.047078121Z",
+     "updatedAt": "2026-11-08T08:03:31.047078121Z",
+     "deletedAt": null
+    },
+    "round": {
+     "roundId": "391fa77e-e043-4e8b-8d44-1b57733849b3",
+     "stake": 0,
+     "payout": 0,
+     "delta": 0,
+     "settledAt": 1794125011046
+    }
+   }
+  },
+  {
+   "method": "POST",
+   "path": "/limbo/bet",
+   "request": {
+    "betNumber": 2,
+    "amount": 0,
+    "currency": 1,
+    "generation": "e23dc584-2b2b-4728-94cc-27320a0f2c76"
+   },
+   "response": {
+    "game": {
+     "id": 6834185,
+     "seedId": 32004,
+     "gameId": "57e17514-8eeb-41fb-b4a5-ef079f2114c4",
+     "game": {
+      "id": "57e17514-8eeb-41fb-b4a5-ef079f2114c4",
+      "generation": "e23dc584-2b2b-4728-94cc-27320a0f2c76",
+      "seedId": 32004,
+      "amount": 0,
+      "originalAmount": 0,
+      "payout": 0,
+      "payoutMultiplier": 2,
+      "nextPayoutMultiplier": 0,
+      "roundId": "57e17514-8eeb-41fb-b4a5-ef079f2114c4",
+      "nonce": 1033,
+      "name": "limbo",
+      "currency": 1,
+      "active": false,
+      "createdAt": "2026-11-08T08:03:44.698817222Z",
+      "updatedAt": "2026-11-08T08:03:44.698817222Z",
+      "deletedAt": null,
+      "finishedAt": "0001-01-01T00:00:00Z"
+     },
+     "betNumber": 2,
+     "fairnessVersion": "canonical-v2",
+     "winChance": 49.5,
+     "outcome": 3.35,
+     "createdAt": "2026-11-08T08:03:44.699323261Z",
+     "updatedAt": "2026-11-08T08:03:44.699323261Z",
+     "deletedAt": null
+    },
+    "round": {
+     "roundId": "57e17514-8eeb-41fb-b4a5-ef079f2114c4",
+     "stake": 0,
+     "payout": 0,
+     "delta": 0,
+     "settledAt": 1794125024698
+    }
+   }
+  },
+  {
+   "method": "POST",
+   "path": "/plinko2/bet",
+   "request": {
+    "rows": 12,
+    "risk": "medium",
+    "amount": 0,
+    "currency": 1,
+    "generation": "9518df41-7b5e-49eb-9443-f1781216b93b"
+   },
+   "response": {
+    "game": {
+     "id": 1759565,
+     "seedId": 177289,
+     "gameId": "7b6dc910-54da-4fc3-81ba-131715220f5e",
+     "game": {
+      "id": "7b6dc910-54da-4fc3-81ba-131715220f5e",
+      "generation": "9518df41-7b5e-49eb-9443-f1781216b93b",
+      "seedId": 177289,
+      "amount": 0,
+      "originalAmount": 0,
+      "payout": 0,
+      "payoutMultiplier": 0.48,
+      "nextPayoutMultiplier": 0,
+      "roundId": "7b6dc910-54da-4fc3-81ba-131715220f5e",
+      "nonce": 4,
+      "name": "plinko2",
+      "currency": 1,
+      "active": false,
+      "createdAt": "2026-11-08T08:03:58.14991446Z",
+      "updatedAt": "2026-11-08T08:03:58.14991446Z",
+      "deletedAt": null,
+      "finishedAt": "0001-01-01T00:00:00Z"
+     },
+     "rows": 12,
+     "risk": "medium",
+     "path": [
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0
+     ],
+     "bucket": 7,
+     "multiplier": 0.48,
+     "fairnessVersion": "canonical",
+     "createdAt": "2026-11-08T08:03:58.152557505Z",
+     "updatedAt": "2026-11-08T08:03:58.152557505Z",
+     "deletedAt": null
+    },
+    "round": {
+     "roundId": "7b6dc910-54da-4fc3-81ba-131715220f5e",
+     "stake": 0,
+     "payout": 0,
+     "delta": 0,
+     "settledAt": 1794125038149
+    }
+   }
+  },
+  {
+   "method": "POST",
+   "path": "/mines2/bet",
+   "request": {
+    "generation": "39756130-11d5-46f0-a9bf-1994a5aec7b5",
+    "amount": 0,
+    "grid": 25,
+    "mines": 3,
+    "currency": 1
+   },
+   "response": {
+    "game": {
+     "id": 2915077,
+     "roundId": "7d3a8b8c-e87a-49ad-b98e-677deb8c9116",
+     "currency": 1,
+     "active": true,
+     "seq": 0,
+     "phase": "playing",
+     "grid": 25,
+     "mines": 3,
+     "auto": false,
+     "stake": 0,
+     "maxWin": 1000310.0961298,
+     "opened": [],
+     "hit": null,
+     "field": null,
+     "multiplier": 0,
+     "value": 0,
+     "next": {
+      "multiplier": 1.125,
+      "value": 0
+     },
+     "options": {
+      "reveal": true,
+      "cashout": false,
+      "maxWin": false
+     },
+     "payout": 0,
+     "createdAt": "2026-11-08T08:04:11.577914019Z"
+    }
+   }
+  },
+  {
+   "method": "POST",
+   "path": "/mines2/action",
+   "request": {
+    "generation": "1a6688bc-a0e9-4396-b575-58dd512bbe81",
+    "roundId": "7d3a8b8c-e87a-49ad-b98e-677deb8c9116",
+    "seq": 0,
+    "action": "reveal",
+    "tile": 6
+   },
+   "response": {
+    "game": {
+     "id": 2915077,
+     "roundId": "7d3a8b8c-e87a-49ad-b98e-677deb8c9116",
+     "currency": 1,
+     "active": true,
+     "seq": 1,
+     "phase": "playing",
+     "grid": 25,
+     "mines": 3,
+     "auto": false,
+     "stake": 0,
+     "maxWin": 1000310.0961298,
+     "opened": [
+      6
+     ],
+     "hit": null,
+     "field": null,
+     "multiplier": 1.125,
+     "value": 0,
+     "next": {
+      "multiplier": 1.2857142857142858,
+      "value": 0
+     },
+     "options": {
+      "reveal": true,
+      "cashout": true,
+      "maxWin": false
+     },
+     "payout": 0,
+     "createdAt": "2026-11-08T08:04:11.577914Z"
+    }
+   }
+  },
+  {
+   "method": "GET",
+   "path": "/user/balance?currency=1",
+   "request": null,
+   "response": {
+    "balance": 0
+   }
+  },
+  {
+   "method": "POST",
+   "path": "/road/bet",
+   "request": {
+    "generation": "2219b03f-6ece-45ff-9980-589925e36162",
+    "amount": 0,
+    "difficulty": "medium",
+    "currency": 1
+   },
+   "response": {
+    "balance": 0,
+    "game": {
+     "id": 192438,
+     "roundId": "74ea2fe8-7f22-4cae-960f-8af572644a71",
+     "currency": 1,
+     "active": true,
+     "seq": 0,
+     "phase": "playing",
+     "difficulty": "medium",
+     "traps": 3,
+     "lanes": 22,
+     "auto": false,
+     "stake": 0,
+     "maxWin": 1000310.0961298,
+     "position": 0,
+     "hit": null,
+     "field": null,
+     "trapLane": null,
+     "multiplier": 0,
+     "value": 0,
+     "next": {
+      "multiplier": 1.125,
+      "value": 0
+     },
+     "options": {
+      "step": true,
+      "cashout": false,
+      "maxWin": false
+     },
+     "payout": 0,
+     "createdAt": "2026-11-08T08:04:23.784688776Z"
+    }
+   }
+  },
+  {
+   "method": "GET",
+   "path": "/limits/mines2",
+   "request": null,
+   "response": {
+    "game": "mines2",
+    "maxBet": 20000,
+    "maxWin": 1000000,
+    "minBet": 0.01,
+    "source": "server-config",
+    "unit": "USD",
+    "wallet": {
+     "currency": 1,
+     "decimals": 8,
+     "maxBet": 20006.20192259,
+     "maxWin": 1000310.0961298,
+     "minBet": 0.01000311,
+     "symbol": "USDT"
+    }
+   }
+  },
+  {
+   "method": "GET",
+   "path": "/mines2/game",
+   "request": null,
+   "response": {
+    "game": {
+     "id": 2915077,
+     "roundId": "7d3a8b8c-e87a-49ad-b98e-677deb8c9116",
+     "currency": 1,
+     "active": true,
+     "seq": 1,
+     "phase": "playing",
+     "grid": 25,
+     "mines": 3,
+     "auto": false,
+     "stake": 0,
+     "maxWin": 1000310.0961298,
+     "opened": [
+      6
+     ],
+     "hit": null,
+     "field": null,
+     "multiplier": 1.125,
+     "value": 0,
+     "next": {
+      "multiplier": 1.2857142857142858,
+      "value": 0
+     },
+     "options": {
+      "reveal": true,
+      "cashout": true,
+      "maxWin": false
+     },
+     "payout": 0,
+     "createdAt": "2026-11-08T08:04:11.577914Z"
+    }
+   }
+  },
+  {
+   "method": "GET",
+   "path": "/user/balance?currency=1",
+   "request": null,
+   "response": {
+    "balance": 0
+   }
+  },
+  {
+   "method": "POST",
+   "path": "/mines2/action",
+   "request": {
+    "generation": "5400f8d7-e31f-4917-acf1-39879f530736",
+    "roundId": "7d3a8b8c-e87a-49ad-b98e-677deb8c9116",
+    "seq": 1,
+    "action": "cashout"
+   },
+   "response": {
+    "game": {
+     "id": 2915077,
+     "roundId": "7d3a8b8c-e87a-49ad-b98e-677deb8c9116",
+     "currency": 1,
+     "active": false,
+     "seq": 2,
+     "phase": "settled",
+     "grid": 25,
+     "mines": 3,
+     "auto": false,
+     "stake": 0,
+     "maxWin": 1000310.0961298,
+     "opened": [
+      6
+     ],
+     "hit": null,
+     "field": [
+      0,
+      22,
+      19
+     ],
+     "multiplier": 1.125,
+     "value": 0,
+     "next": null,
+     "options": {
+      "reveal": false,
+      "cashout": false,
+      "maxWin": false
+     },
+     "outcome": "cashout",
+     "payout": 0,
+     "createdAt": "2026-11-08T08:04:11.577914Z",
+     "settledAt": "2026-11-08T08:04:56.204153579Z"
+    },
+    "round": {
+     "roundId": "7d3a8b8c-e87a-49ad-b98e-677deb8c9116",
+     "stake": 0,
+     "payout": 0,
+     "delta": 0,
+     "settledAt": 1794125096204
+    }
+   }
+  },
+  {
+   "method": "GET",
+   "path": "/limits/road",
+   "request": null,
+   "response": {
+    "game": "road",
+    "maxBet": 20000,
+    "maxWin": 1000000,
+    "minBet": 0.01,
+    "source": "server-config",
+    "unit": "USD",
+    "wallet": {
+     "currency": 1,
+     "decimals": 8,
+     "maxBet": 20006.20192259,
+     "maxWin": 1000310.0961298,
+     "minBet": 0.01000311,
+     "symbol": "USDT"
+    }
+   }
+  },
+  {
+   "method": "GET",
+   "path": "/road/game",
+   "request": null,
+   "response": {
+    "game": {
+     "id": 192438,
+     "roundId": "74ea2fe8-7f22-4cae-960f-8af572644a71",
+     "currency": 1,
+     "active": true,
+     "seq": 0,
+     "phase": "playing",
+     "difficulty": "medium",
+     "traps": 3,
+     "lanes": 22,
+     "auto": false,
+     "stake": 0,
+     "maxWin": 1000310.0961298,
+     "position": 0,
+     "hit": null,
+     "field": null,
+     "trapLane": null,
+     "multiplier": 0,
+     "value": 0,
+     "next": {
+      "multiplier": 1.125,
+      "value": 0
+     },
+     "options": {
+      "step": true,
+      "cashout": false,
+      "maxWin": false
+     },
+     "payout": 0,
+     "createdAt": "2026-11-08T08:04:23.784688Z"
+    }
+   }
+  },
+  {
+   "method": "GET",
+   "path": "/user/balance?currency=1",
+   "request": null,
+   "response": {
+    "balance": 0
+   }
+  },
+  {
+   "method": "POST",
+   "path": "/road/action",
+   "request": {
+    "generation": "e4998f64-c563-4ed9-b595-fd0cb4995b36",
+    "roundId": "74ea2fe8-7f22-4cae-960f-8af572644a71",
+    "seq": 0,
+    "action": "step"
+   },
+   "response": {
+    "game": {
+     "id": 192438,
+     "roundId": "74ea2fe8-7f22-4cae-960f-8af572644a71",
+     "currency": 1,
+     "active": true,
+     "seq": 1,
+     "phase": "playing",
+     "difficulty": "medium",
+     "traps": 3,
+     "lanes": 22,
+     "auto": false,
+     "stake": 0,
+     "maxWin": 1000310.0961298,
+     "position": 1,
+     "hit": null,
+     "field": null,
+     "trapLane": null,
+     "multiplier": 1.125,
+     "value": 0,
+     "next": {
+      "multiplier": 1.2857142857142858,
+      "value": 0
+     },
+     "options": {
+      "step": true,
+      "cashout": true,
+      "maxWin": false
+     },
+     "payout": 0,
+     "createdAt": "2026-11-08T08:04:23.784688Z"
+    }
+   }
+  },
+  {
+   "method": "POST",
+   "path": "/road/action",
+   "request": {
+    "generation": "1481a314-0ff3-43f1-b293-f0cd46da1001",
+    "roundId": "74ea2fe8-7f22-4cae-960f-8af572644a71",
+    "seq": 1,
+    "action": "cashout"
+   },
+   "response": {
+    "game": {
+     "id": 192438,
+     "roundId": "74ea2fe8-7f22-4cae-960f-8af572644a71",
+     "currency": 1,
+     "active": false,
+     "seq": 2,
+     "phase": "settled",
+     "difficulty": "medium",
+     "traps": 3,
+     "lanes": 22,
+     "auto": false,
+     "stake": 0,
+     "maxWin": 1000310.0961298,
+     "position": 1,
+     "hit": null,
+     "field": [
+      8,
+      17,
+      16
+     ],
+     "trapLane": 9,
+     "multiplier": 1.125,
+     "value": 0,
+     "next": null,
+     "options": {
+      "step": false,
+      "cashout": false,
+      "maxWin": false
+     },
+     "outcome": "cashout",
+     "payout": 0,
+     "createdAt": "2026-11-08T08:04:23.784688Z",
+     "settledAt": "2026-11-08T08:05:11.462042468Z"
+    },
+    "round": {
+     "roundId": "74ea2fe8-7f22-4cae-960f-8af572644a71",
+     "stake": 0,
+     "payout": 0,
+     "delta": 0,
+     "settledAt": 1794125111462
+    }
+   }
+  },
+  {
+   "method": "POST",
+   "path": "/dice/bet",
+   "request": {
+    "betNumber": 10,
+    "direction": "over",
+    "mode": "over",
+    "amount": 0,
+    "currency": 1,
+    "generation": "8027b12f-f7ea-42fd-a337-49fe56106b56"
+   },
+   "response": {
+    "game": {
+     "id": 12417005,
+     "seedId": 38,
+     "gameId": "10af4e54-16c1-4287-8ff8-48d1f0f92c74",
+     "game": {
+      "id": "10af4e54-16c1-4287-8ff8-48d1f0f92c74",
+      "generation": "8027b12f-f7ea-42fd-a337-49fe56106b56",
+      "seedId": 38,
+      "amount": 0,
+      "originalAmount": 0,
+      "payout": 0,
+      "payoutMultiplier": 1.1,
+      "nextPayoutMultiplier": 0,
+      "roundId": "10af4e54-16c1-4287-8ff8-48d1f0f92c74",
+      "nonce": 96,
+      "name": "dice",
+      "currency": 1,
+      "active": false,
+      "createdAt": "2026-11-08T08:19:26.355727636Z",
+      "updatedAt": "2026-11-08T08:19:26.355727636Z",
+      "deletedAt": null,
+      "finishedAt": "0001-01-01T00:00:00Z"
+     },
+     "rollOver": 10,
+     "betDirection": "over",
+     "fairnessVersion": "canonical-v2",
+     "mode": "over",
+     "rangeLo": 0,
+     "rangeHi": 0,
+     "winChance": 90,
+     "outcome": 34.83,
+     "createdAt": "2026-11-08T08:19:26.356225123Z",
+     "updatedAt": "2026-11-08T08:19:26.356225123Z",
+     "deletedAt": null
+    },
+    "round": {
+     "roundId": "10af4e54-16c1-4287-8ff8-48d1f0f92c74",
+     "stake": 0,
+     "payout": 0,
+     "delta": 0,
+     "settledAt": 1794125966355
+    }
+   },
+   "live_check": true
+  },
+  {
+   "method": "POST",
+   "path": "/dice/bet",
+   "request": {
+    "betNumber": 33,
+    "direction": "over",
+    "mode": "over",
+    "amount": 0,
+    "currency": 1,
+    "generation": "7333a528-ff3c-4aa9-9cd1-d5d5201bc9a7"
+   },
+   "response": {
+    "game": {
+     "id": 12417009,
+     "seedId": 38,
+     "gameId": "46d2c719-dd6e-4d95-97e4-f0350f830868",
+     "game": {
+      "id": "46d2c719-dd6e-4d95-97e4-f0350f830868",
+      "generation": "7333a528-ff3c-4aa9-9cd1-d5d5201bc9a7",
+      "seedId": 38,
+      "amount": 0,
+      "originalAmount": 0,
+      "payout": 0,
+      "payoutMultiplier": 1.47761194,
+      "nextPayoutMultiplier": 0,
+      "roundId": "46d2c719-dd6e-4d95-97e4-f0350f830868",
+      "nonce": 97,
+      "name": "dice",
+      "currency": 1,
+      "active": false,
+      "createdAt": "2026-11-08T08:19:33.955852351Z",
+      "updatedAt": "2026-11-08T08:19:33.955852351Z",
+      "deletedAt": null,
+      "finishedAt": "0001-01-01T00:00:00Z"
+     },
+     "rollOver": 33,
+     "betDirection": "over",
+     "fairnessVersion": "canonical-v2",
+     "mode": "over",
+     "rangeLo": 0,
+     "rangeHi": 0,
+     "winChance": 67,
+     "outcome": 55.17,
+     "createdAt": "2026-11-08T08:19:33.958483267Z",
+     "updatedAt": "2026-11-08T08:19:33.958483267Z",
+     "deletedAt": null
+    },
+    "round": {
+     "roundId": "46d2c719-dd6e-4d95-97e4-f0350f830868",
+     "stake": 0,
+     "payout": 0,
+     "delta": 0,
+     "settledAt": 1794125973955
+    }
+   },
+   "live_check": true
+  },
+  {
+   "method": "POST",
+   "path": "/dice/bet",
+   "request": {
+    "betNumber": 33,
+    "direction": "over",
+    "mode": "over",
+    "amount": 0,
+    "currency": 1,
+    "generation": "1f55e4d2-e25e-4a6b-8f58-1403b5008c06"
+   },
+   "response": {
+    "game": {
+     "id": 12417012,
+     "seedId": 38,
+     "gameId": "b6acf756-f748-41de-93a2-94551358533b",
+     "game": {
+      "id": "b6acf756-f748-41de-93a2-94551358533b",
+      "generation": "1f55e4d2-e25e-4a6b-8f58-1403b5008c06",
+      "seedId": 38,
+      "amount": 0,
+      "originalAmount": 0,
+      "payout": 0,
+      "payoutMultiplier": 0,
+      "nextPayoutMultiplier": 0,
+      "roundId": "b6acf756-f748-41de-93a2-94551358533b",
+      "nonce": 98,
+      "name": "dice",
+      "currency": 1,
+      "active": false,
+      "createdAt": "2026-11-08T08:19:39.282474407Z",
+      "updatedAt": "2026-11-08T08:19:39.282474407Z",
+      "deletedAt": null,
+      "finishedAt": "0001-01-01T00:00:00Z"
+     },
+     "rollOver": 33,
+     "betDirection": "over",
+     "fairnessVersion": "canonical-v2",
+     "mode": "over",
+     "rangeLo": 0,
+     "rangeHi": 0,
+     "winChance": 67,
+     "outcome": 22.54,
+     "createdAt": "2026-11-08T08:19:39.282805133Z",
+     "updatedAt": "2026-11-08T08:19:39.282805133Z",
+     "deletedAt": null
+    },
+    "round": {
+     "roundId": "b6acf756-f748-41de-93a2-94551358533b",
+     "stake": 0,
+     "payout": 0,
+     "delta": 0,
+     "settledAt": 1794125979282
+    }
+   },
+   "live_check": true
+  },
+  {
+   "method": "POST",
+   "path": "/limbo/bet",
+   "request": {
+    "betNumber": 2,
+    "amount": 0,
+    "currency": 1,
+    "generation": "1031a133-ba19-4753-adb6-ff9313537b14"
+   },
+   "response": {
+    "game": {
+     "id": 6836803,
+     "seedId": 32004,
+     "gameId": "e3822813-8ba6-458a-aa3b-0ccaf15015ed",
+     "game": {
+      "id": "e3822813-8ba6-458a-aa3b-0ccaf15015ed",
+      "generation": "1031a133-ba19-4753-adb6-ff9313537b14",
+      "seedId": 32004,
+      "amount": 0,
+      "originalAmount": 0,
+      "payout": 0,
+      "payoutMultiplier": 0,
+      "nextPayoutMultiplier": 0,
+      "roundId": "e3822813-8ba6-458a-aa3b-0ccaf15015ed",
+      "nonce": 1034,
+      "name": "limbo",
+      "currency": 1,
+      "active": false,
+      "createdAt": "2026-11-08T08:19:57.843913993Z",
+      "updatedAt": "2026-11-08T08:19:57.843913993Z",
+      "deletedAt": null,
+      "finishedAt": "0001-01-01T00:00:00Z"
+     },
+     "betNumber": 2,
+     "fairnessVersion": "canonical-v2",
+     "winChance": 49.5,
+     "outcome": 1.82,
+     "createdAt": "2026-11-08T08:19:57.844394523Z",
+     "updatedAt": "2026-11-08T08:19:57.844394523Z",
+     "deletedAt": null
+    },
+    "round": {
+     "roundId": "e3822813-8ba6-458a-aa3b-0ccaf15015ed",
+     "stake": 0,
+     "payout": 0,
+     "delta": 0,
+     "settledAt": 1794125997843
+    }
+   },
+   "live_check": true
+  },
+  {
+   "method": "POST",
+   "path": "/limbo/bet",
+   "request": {
+    "betNumber": 2,
+    "amount": 0,
+    "currency": 1,
+    "generation": "abb4a725-c7ac-42b4-abc3-3faa8cf17024"
+   },
+   "response": {
+    "game": {
+     "id": 6836814,
+     "seedId": 32004,
+     "gameId": "94d5316b-b22a-433e-bd8d-6446a3c68ebb",
+     "game": {
+      "id": "94d5316b-b22a-433e-bd8d-6446a3c68ebb",
+      "generation": "abb4a725-c7ac-42b4-abc3-3faa8cf17024",
+      "seedId": 32004,
+      "amount": 0,
+      "originalAmount": 0,
+      "payout": 0,
+      "payoutMultiplier": 2,
+      "nextPayoutMultiplier": 0,
+      "roundId": "94d5316b-b22a-433e-bd8d-6446a3c68ebb",
+      "nonce": 1035,
+      "name": "limbo",
+      "currency": 1,
+      "active": false,
+      "createdAt": "2026-11-08T08:20:03.378438384Z",
+      "updatedAt": "2026-11-08T08:20:03.378438384Z",
+      "deletedAt": null,
+      "finishedAt": "0001-01-01T00:00:00Z"
+     },
+     "betNumber": 2,
+     "fairnessVersion": "canonical-v2",
+     "winChance": 49.5,
+     "outcome": 3.57,
+     "createdAt": "2026-11-08T08:20:03.378770622Z",
+     "updatedAt": "2026-11-08T08:20:03.378770622Z",
+     "deletedAt": null
+    },
+    "round": {
+     "roundId": "94d5316b-b22a-433e-bd8d-6446a3c68ebb",
+     "stake": 0,
+     "payout": 0,
+     "delta": 0,
+     "settledAt": 1794126003378
+    }
+   },
+   "live_check": true
+  },
+  {
+   "method": "POST",
+   "path": "/limbo/bet",
+   "request": {
+    "betNumber": 2,
+    "amount": 0,
+    "currency": 1,
+    "generation": "4ea8f7be-d932-42b7-8279-6b486f062f53"
+   },
+   "response": {
+    "game": {
+     "id": 6836836,
+     "seedId": 32004,
+     "gameId": "da5a05d9-a6bc-4afa-b8dd-48cb2c4258dd",
+     "game": {
+      "id": "da5a05d9-a6bc-4afa-b8dd-48cb2c4258dd",
+      "generation": "4ea8f7be-d932-42b7-8279-6b486f062f53",
+      "seedId": 32004,
+      "amount": 0,
+      "originalAmount": 0,
+      "payout": 0,
+      "payoutMultiplier": 2,
+      "nextPayoutMultiplier": 0,
+      "roundId": "da5a05d9-a6bc-4afa-b8dd-48cb2c4258dd",
+      "nonce": 1036,
+      "name": "limbo",
+      "currency": 1,
+      "active": false,
+      "createdAt": "2026-11-08T08:20:08.691550355Z",
+      "updatedAt": "2026-11-08T08:20:08.691550355Z",
+      "deletedAt": null,
+      "finishedAt": "0001-01-01T00:00:00Z"
+     },
+     "betNumber": 2,
+     "fairnessVersion": "canonical-v2",
+     "winChance": 49.5,
+     "outcome": 4.48,
+     "createdAt": "2026-11-08T08:20:08.691852468Z",
+     "updatedAt": "2026-11-08T08:20:08.691852468Z",
+     "deletedAt": null
+    },
+    "round": {
+     "roundId": "da5a05d9-a6bc-4afa-b8dd-48cb2c4258dd",
+     "stake": 0,
+     "payout": 0,
+     "delta": 0,
+     "settledAt": 1794126008691
+    }
+   },
+   "live_check": true
+  },
+  {
+   "method": "POST",
+   "path": "/plinko2/bet",
+   "request": {
+    "rows": 12,
+    "risk": "high",
+    "amount": 0,
+    "currency": 1,
+    "generation": "c7fc0b73-c256-426b-8de2-0ed514824b55"
+   },
+   "response": {
+    "game": {
+     "id": 1760211,
+     "seedId": 177289,
+     "gameId": "eec77826-4a3f-4601-a470-fb4de057151c",
+     "game": {
+      "id": "eec77826-4a3f-4601-a470-fb4de057151c",
+      "generation": "c7fc0b73-c256-426b-8de2-0ed514824b55",
+      "seedId": 177289,
+      "amount": 0,
+      "originalAmount": 0,
+      "payout": 0,
+      "payoutMultiplier": 0.3,
+      "nextPayoutMultiplier": 0,
+      "roundId": "eec77826-4a3f-4601-a470-fb4de057151c",
+      "nonce": 5,
+      "name": "plinko2",
+      "currency": 1,
+      "active": false,
+      "createdAt": "2026-11-08T08:20:25.319946692Z",
+      "updatedAt": "2026-11-08T08:20:25.319946692Z",
+      "deletedAt": null,
+      "finishedAt": "0001-01-01T00:00:00Z"
+     },
+     "rows": 12,
+     "risk": "high",
+     "path": [
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0
+     ],
+     "bucket": 5,
+     "multiplier": 0.3,
+     "fairnessVersion": "canonical",
+     "createdAt": "2026-11-08T08:20:25.320420503Z",
+     "updatedAt": "2026-11-08T08:20:25.320420503Z",
+     "deletedAt": null
+    },
+    "round": {
+     "roundId": "eec77826-4a3f-4601-a470-fb4de057151c",
+     "stake": 0,
+     "payout": 0,
+     "delta": 0,
+     "settledAt": 1794126025319
+    }
+   },
+   "live_check": true
+  },
+  {
+   "method": "POST",
+   "path": "/plinko2/bet",
+   "request": {
+    "rows": 12,
+    "risk": "low",
+    "amount": 0,
+    "currency": 1,
+    "generation": "72c8af35-219a-45b9-9f08-6efcc35079e8"
+   },
+   "response": {
+    "game": {
+     "id": 1760233,
+     "seedId": 177289,
+     "gameId": "77372452-6dd1-4418-be2f-56bc6a1bd512",
+     "game": {
+      "id": "77372452-6dd1-4418-be2f-56bc6a1bd512",
+      "generation": "72c8af35-219a-45b9-9f08-6efcc35079e8",
+      "seedId": 177289,
+      "amount": 0,
+      "originalAmount": 0,
+      "payout": 0,
+      "payoutMultiplier": 0.7,
+      "nextPayoutMultiplier": 0,
+      "roundId": "77372452-6dd1-4418-be2f-56bc6a1bd512",
+      "nonce": 6,
+      "name": "plinko2",
+      "currency": 1,
+      "active": false,
+      "createdAt": "2026-11-08T08:20:33.55575882Z",
+      "updatedAt": "2026-11-08T08:20:33.55575882Z",
+      "deletedAt": null,
+      "finishedAt": "0001-01-01T00:00:00Z"
+     },
+     "rows": 12,
+     "risk": "low",
+     "path": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "bucket": 7,
+     "multiplier": 0.7,
+     "fairnessVersion": "canonical",
+     "createdAt": "2026-11-08T08:20:33.55617181Z",
+     "updatedAt": "2026-11-08T08:20:33.55617181Z",
+     "deletedAt": null
+    },
+    "round": {
+     "roundId": "77372452-6dd1-4418-be2f-56bc6a1bd512",
+     "stake": 0,
+     "payout": 0,
+     "delta": 0,
+     "settledAt": 1794126033555
+    }
+   },
+   "live_check": true
+  },
+  {
+   "method": "POST",
+   "path": "/plinko2/bet",
+   "request": {
+    "rows": 12,
+    "risk": "low",
+    "amount": 0,
+    "currency": 1,
+    "generation": "84854e61-439d-44a7-821a-7e5ae3d9cfae"
+   },
+   "response": {
+    "game": {
+     "id": 1760253,
+     "seedId": 177289,
+     "gameId": "c356782b-0f8d-4796-ab19-05f781573d25",
+     "game": {
+      "id": "c356782b-0f8d-4796-ab19-05f781573d25",
+      "generation": "84854e61-439d-44a7-821a-7e5ae3d9cfae",
+      "seedId": 177289,
+      "amount": 0,
+      "originalAmount": 0,
+      "payout": 0,
+      "payoutMultiplier": 0.49,
+      "nextPayoutMultiplier": 0,
+      "roundId": "c356782b-0f8d-4796-ab19-05f781573d25",
+      "nonce": 7,
+      "name": "plinko2",
+      "currency": 1,
+      "active": false,
+      "createdAt": "2026-11-08T08:20:41.434537359Z",
+      "updatedAt": "2026-11-08T08:20:41.434537359Z",
+      "deletedAt": null,
+      "finishedAt": "0001-01-01T00:00:00Z"
+     },
+     "rows": 12,
+     "risk": "low",
+     "path": [
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0
+     ],
+     "bucket": 6,
+     "multiplier": 0.49,
+     "fairnessVersion": "canonical",
+     "createdAt": "2026-11-08T08:20:41.435414665Z",
+     "updatedAt": "2026-11-08T08:20:41.435414665Z",
+     "deletedAt": null
+    },
+    "round": {
+     "roundId": "c356782b-0f8d-4796-ab19-05f781573d25",
+     "stake": 0,
+     "payout": 0,
+     "delta": 0,
+     "settledAt": 1794126041434
+    }
+   },
+   "live_check": true
+  },
+  {
+   "method": "POST",
+   "path": "/mines2/bet",
+   "request": {
+    "generation": "e3f3159e-267a-4a92-b7a5-b43bc8706df8",
+    "amount": 0,
+    "grid": 25,
+    "mines": 3,
+    "currency": 1
+   },
+   "response": {
+    "game": {
+     "id": 2915568,
+     "roundId": "c25d781b-fb37-4f05-8060-8acad5812582",
+     "currency": 1,
+     "active": true,
+     "seq": 0,
+     "phase": "playing",
+     "grid": 25,
+     "mines": 3,
+     "auto": false,
+     "stake": 0,
+     "maxWin": 1000310.0961298,
+     "opened": [],
+     "hit": null,
+     "field": null,
+     "multiplier": 0,
+     "value": 0,
+     "next": {
+      "multiplier": 1.125,
+      "value": 0
+     },
+     "options": {
+      "reveal": true,
+      "cashout": false,
+      "maxWin": false
+     },
+     "payout": 0,
+     "createdAt": "2026-11-08T08:21:01.566079237Z"
+    }
+   },
+   "live_check": true
+  },
+  {
+   "method": "POST",
+   "path": "/mines2/action",
+   "request": {
+    "generation": "4bbce7c1-5b71-44ab-8fb6-522513d2f94e",
+    "roundId": "c25d781b-fb37-4f05-8060-8acad5812582",
+    "seq": 0,
+    "action": "reveal",
+    "tile": 16
+   },
+   "response": {
+    "game": {
+     "id": 2915568,
+     "roundId": "c25d781b-fb37-4f05-8060-8acad5812582",
+     "currency": 1,
+     "active": true,
+     "seq": 1,
+     "phase": "playing",
+     "grid": 25,
+     "mines": 3,
+     "auto": false,
+     "stake": 0,
+     "maxWin": 1000310.0961298,
+     "opened": [
+      16
+     ],
+     "hit": null,
+     "field": null,
+     "multiplier": 1.125,
+     "value": 0,
+     "next": {
+      "multiplier": 1.2857142857142858,
+      "value": 0
+     },
+     "options": {
+      "reveal": true,
+      "cashout": true,
+      "maxWin": false
+     },
+     "payout": 0,
+     "createdAt": "2026-11-08T08:21:01.566079Z"
+    }
+   },
+   "live_check": true
+  },
+  {
+   "method": "POST",
+   "path": "/mines2/action",
+   "request": {
+    "generation": "e52b4a95-d7a2-4115-bd8a-2e18cc3e99bc",
+    "roundId": "c25d781b-fb37-4f05-8060-8acad5812582",
+    "seq": 1,
+    "action": "cashout"
+   },
+   "response": {
+    "game": {
+     "id": 2915568,
+     "roundId": "c25d781b-fb37-4f05-8060-8acad5812582",
+     "currency": 1,
+     "active": false,
+     "seq": 2,
+     "phase": "settled",
+     "grid": 25,
+     "mines": 3,
+     "auto": false,
+     "stake": 0,
+     "maxWin": 1000310.0961298,
+     "opened": [
+      16
+     ],
+     "hit": null,
+     "field": [
+      11,
+      22,
+      9
+     ],
+     "multiplier": 1.125,
+     "value": 0,
+     "next": null,
+     "options": {
+      "reveal": false,
+      "cashout": false,
+      "maxWin": false
+     },
+     "outcome": "cashout",
+     "payout": 0,
+     "createdAt": "2026-11-08T08:21:01.566079Z",
+     "settledAt": "2026-11-08T08:21:06.031841649Z"
+    },
+    "round": {
+     "roundId": "c25d781b-fb37-4f05-8060-8acad5812582",
+     "stake": 0,
+     "payout": 0,
+     "delta": 0,
+     "settledAt": 1794126066031
+    }
+   },
+   "live_check": true
+  },
+  {
+   "method": "POST",
+   "path": "/mines2/bet",
+   "request": {
+    "generation": "996e55c3-0b7b-49aa-a976-769a7ad954b8",
+    "amount": 0,
+    "grid": 25,
+    "mines": 3,
+    "currency": 1
+   },
+   "response": {
+    "game": {
+     "id": 2915570,
+     "roundId": "805822cc-7f25-4909-b60f-9e5c6649427a",
+     "currency": 1,
+     "active": true,
+     "seq": 0,
+     "phase": "playing",
+     "grid": 25,
+     "mines": 3,
+     "auto": false,
+     "stake": 0,
+     "maxWin": 1000310.0961298,
+     "opened": [],
+     "hit": null,
+     "field": null,
+     "multiplier": 0,
+     "value": 0,
+     "next": {
+      "multiplier": 1.125,
+      "value": 0
+     },
+     "options": {
+      "reveal": true,
+      "cashout": false,
+      "maxWin": false
+     },
+     "payout": 0,
+     "createdAt": "2026-11-08T08:21:11.512127581Z"
+    }
+   },
+   "live_check": true
+  },
+  {
+   "method": "POST",
+   "path": "/mines2/action",
+   "request": {
+    "generation": "1515bb59-4ed2-4597-9228-5c8e2582be03",
+    "roundId": "805822cc-7f25-4909-b60f-9e5c6649427a",
+    "seq": 0,
+    "action": "reveal",
+    "tile": 3
+   },
+   "response": {
+    "game": {
+     "id": 2915570,
+     "roundId": "805822cc-7f25-4909-b60f-9e5c6649427a",
+     "currency": 1,
+     "active": true,
+     "seq": 1,
+     "phase": "playing",
+     "grid": 25,
+     "mines": 3,
+     "auto": false,
+     "stake": 0,
+     "maxWin": 1000310.0961298,
+     "opened": [
+      3
+     ],
+     "hit": null,
+     "field": null,
+     "multiplier": 1.125,
+     "value": 0,
+     "next": {
+      "multiplier": 1.2857142857142858,
+      "value": 0
+     },
+     "options": {
+      "reveal": true,
+      "cashout": true,
+      "maxWin": false
+     },
+     "payout": 0,
+     "createdAt": "2026-11-08T08:21:11.512127Z"
+    }
+   },
+   "live_check": true
+  },
+  {
+   "method": "POST",
+   "path": "/mines2/action",
+   "request": {
+    "generation": "3a2cebde-815b-44f0-b9b4-5512c3c45657",
+    "roundId": "805822cc-7f25-4909-b60f-9e5c6649427a",
+    "seq": 1,
+    "action": "cashout"
+   },
+   "response": {
+    "game": {
+     "id": 2915570,
+     "roundId": "805822cc-7f25-4909-b60f-9e5c6649427a",
+     "currency": 1,
+     "active": false,
+     "seq": 2,
+     "phase": "settled",
+     "grid": 25,
+     "mines": 3,
+     "auto": false,
+     "stake": 0,
+     "maxWin": 1000310.0961298,
+     "opened": [
+      3
+     ],
+     "hit": null,
+     "field": [
+      15,
+      8,
+      23
+     ],
+     "multiplier": 1.125,
+     "value": 0,
+     "next": null,
+     "options": {
+      "reveal": false,
+      "cashout": false,
+      "maxWin": false
+     },
+     "outcome": "cashout",
+     "payout": 0,
+     "createdAt": "2026-11-08T08:21:11.512127Z",
+     "settledAt": "2026-11-08T08:21:16.160168362Z"
+    },
+    "round": {
+     "roundId": "805822cc-7f25-4909-b60f-9e5c6649427a",
+     "stake": 0,
+     "payout": 0,
+     "delta": 0,
+     "settledAt": 1794126076160
+    }
+   },
+   "live_check": true
+  },
+  {
+   "method": "POST",
+   "path": "/mines2/bet",
+   "request": {
+    "generation": "76a05f04-3318-45ea-8d91-c61f8559b9a6",
+    "amount": 0,
+    "grid": 25,
+    "mines": 3,
+    "currency": 1
+   },
+   "response": {
+    "game": {
+     "id": 2915573,
+     "roundId": "587a8303-3bb4-4705-94c4-9dbf09b11eb2",
+     "currency": 1,
+     "active": true,
+     "seq": 0,
+     "phase": "playing",
+     "grid": 25,
+     "mines": 3,
+     "auto": false,
+     "stake": 0,
+     "maxWin": 1000310.0961298,
+     "opened": [],
+     "hit": null,
+     "field": null,
+     "multiplier": 0,
+     "value": 0,
+     "next": {
+      "multiplier": 1.125,
+      "value": 0
+     },
+     "options": {
+      "reveal": true,
+      "cashout": false,
+      "maxWin": false
+     },
+     "payout": 0,
+     "createdAt": "2026-11-08T08:21:21.556809387Z"
+    }
+   },
+   "live_check": true
+  },
+  {
+   "method": "POST",
+   "path": "/mines2/action",
+   "request": {
+    "generation": "375d459c-e53d-4e4c-b4be-39fe2c512882",
+    "roundId": "587a8303-3bb4-4705-94c4-9dbf09b11eb2",
+    "seq": 0,
+    "action": "reveal",
+    "tile": 2
+   },
+   "response": {
+    "game": {
+     "id": 2915573,
+     "roundId": "587a8303-3bb4-4705-94c4-9dbf09b11eb2",
+     "currency": 1,
+     "active": true,
+     "seq": 1,
+     "phase": "playing",
+     "grid": 25,
+     "mines": 3,
+     "auto": false,
+     "stake": 0,
+     "maxWin": 1000310.0961298,
+     "opened": [
+      2
+     ],
+     "hit": null,
+     "field": null,
+     "multiplier": 1.125,
+     "value": 0,
+     "next": {
+      "multiplier": 1.2857142857142858,
+      "value": 0
+     },
+     "options": {
+      "reveal": true,
+      "cashout": true,
+      "maxWin": false
+     },
+     "payout": 0,
+     "createdAt": "2026-11-08T08:21:21.556809Z"
+    }
+   },
+   "live_check": true
+  },
+  {
+   "method": "POST",
+   "path": "/mines2/action",
+   "request": {
+    "generation": "a35334a9-6f6d-4eaa-b23f-953d7484bd98",
+    "roundId": "587a8303-3bb4-4705-94c4-9dbf09b11eb2",
+    "seq": 1,
+    "action": "reveal",
+    "tile": 16
+   },
+   "response": {
+    "game": {
+     "id": 2915573,
+     "roundId": "587a8303-3bb4-4705-94c4-9dbf09b11eb2",
+     "currency": 1,
+     "active": true,
+     "seq": 2,
+     "phase": "playing",
+     "grid": 25,
+     "mines": 3,
+     "auto": false,
+     "stake": 0,
+     "maxWin": 1000310.0961298,
+     "opened": [
+      2,
+      16
+     ],
+     "hit": null,
+     "field": null,
+     "multiplier": 1.2857142857142858,
+     "value": 0,
+     "next": {
+      "multiplier": 1.4785714285714286,
+      "value": 0
+     },
+     "options": {
+      "reveal": true,
+      "cashout": true,
+      "maxWin": false
+     },
+     "payout": 0,
+     "createdAt": "2026-11-08T08:21:21.556809Z"
+    }
+   },
+   "live_check": true
+  },
+  {
+   "method": "POST",
+   "path": "/mines2/action",
+   "request": {
+    "generation": "c1cfddff-02e2-4094-bef4-d4348203c92f",
+    "roundId": "587a8303-3bb4-4705-94c4-9dbf09b11eb2",
+    "seq": 2,
+    "action": "reveal",
+    "tile": 14
+   },
+   "response": {
+    "game": {
+     "id": 2915573,
+     "roundId": "587a8303-3bb4-4705-94c4-9dbf09b11eb2",
+     "currency": 1,
+     "active": true,
+     "seq": 3,
+     "phase": "playing",
+     "grid": 25,
+     "mines": 3,
+     "auto": false,
+     "stake": 0,
+     "maxWin": 1000310.0961298,
+     "opened": [
+      2,
+      16,
+      14
+     ],
+     "hit": null,
+     "field": null,
+     "multiplier": 1.4785714285714286,
+     "value": 0,
+     "next": {
+      "multiplier": 1.71203007518797,
+      "value": 0
+     },
+     "options": {
+      "reveal": true,
+      "cashout": true,
+      "maxWin": false
+     },
+     "payout": 0,
+     "createdAt": "2026-11-08T08:21:21.556809Z"
+    }
+   },
+   "live_check": true
+  },
+  {
+   "method": "POST",
+   "path": "/mines2/action",
+   "request": {
+    "generation": "ef5c0f9b-0b0c-4e14-ad09-15ddfb68aa00",
+    "roundId": "587a8303-3bb4-4705-94c4-9dbf09b11eb2",
+    "seq": 3,
+    "action": "cashout"
+   },
+   "response": {
+    "game": {
+     "id": 2915573,
+     "roundId": "587a8303-3bb4-4705-94c4-9dbf09b11eb2",
+     "currency": 1,
+     "active": false,
+     "seq": 4,
+     "phase": "settled",
+     "grid": 25,
+     "mines": 3,
+     "auto": false,
+     "stake": 0,
+     "maxWin": 1000310.0961298,
+     "opened": [
+      2,
+      16,
+      14
+     ],
+     "hit": null,
+     "field": [
+      20,
+      17,
+      18
+     ],
+     "multiplier": 1.4785714285714286,
+     "value": 0,
+     "next": null,
+     "options": {
+      "reveal": false,
+      "cashout": false,
+      "maxWin": false
+     },
+     "outcome": "cashout",
+     "payout": 0,
+     "createdAt": "2026-11-08T08:21:21.556809Z",
+     "settledAt": "2026-11-08T08:21:31.242202678Z"
+    },
+    "round": {
+     "roundId": "587a8303-3bb4-4705-94c4-9dbf09b11eb2",
+     "stake": 0,
+     "payout": 0,
+     "delta": 0,
+     "settledAt": 1794126091242
+    }
+   },
+   "live_check": true
+  },
+  {
+   "method": "POST",
+   "path": "/road/bet",
+   "request": {
+    "generation": "72ff5e56-63bf-4387-8da3-3cf8db21c747",
+    "amount": 0,
+    "difficulty": "medium",
+    "currency": 1
+   },
+   "response": {
+    "balance": 0,
+    "game": {
+     "id": 192466,
+     "roundId": "c636e6c3-1c68-498a-8c48-31f1a06d0011",
+     "currency": 1,
+     "active": true,
+     "seq": 0,
+     "phase": "playing",
+     "difficulty": "medium",
+     "traps": 3,
+     "lanes": 22,
+     "auto": false,
+     "stake": 0,
+     "maxWin": 1000310.0961298,
+     "position": 0,
+     "hit": null,
+     "field": null,
+     "trapLane": null,
+     "multiplier": 0,
+     "value": 0,
+     "next": {
+      "multiplier": 1.125,
+      "value": 0
+     },
+     "options": {
+      "step": true,
+      "cashout": false,
+      "maxWin": false
+     },
+     "payout": 0,
+     "createdAt": "2026-11-08T08:21:49.237108693Z"
+    }
+   },
+   "live_check": true
+  },
+  {
+   "method": "POST",
+   "path": "/road/action",
+   "request": {
+    "generation": "7257b46e-d16d-41a6-84b9-961015d97f5f",
+    "roundId": "c636e6c3-1c68-498a-8c48-31f1a06d0011",
+    "seq": 0,
+    "action": "step"
+   },
+   "response": {
+    "game": {
+     "id": 192466,
+     "roundId": "c636e6c3-1c68-498a-8c48-31f1a06d0011",
+     "currency": 1,
+     "active": true,
+     "seq": 1,
+     "phase": "playing",
+     "difficulty": "medium",
+     "traps": 3,
+     "lanes": 22,
+     "auto": false,
+     "stake": 0,
+     "maxWin": 1000310.0961298,
+     "position": 1,
+     "hit": null,
+     "field": null,
+     "trapLane": null,
+     "multiplier": 1.125,
+     "value": 0,
+     "next": {
+      "multiplier": 1.2857142857142858,
+      "value": 0
+     },
+     "options": {
+      "step": true,
+      "cashout": true,
+      "maxWin": false
+     },
+     "payout": 0,
+     "createdAt": "2026-11-08T08:21:49.237108Z"
+    }
+   },
+   "live_check": true
+  },
+  {
+   "method": "POST",
+   "path": "/road/action",
+   "request": {
+    "generation": "e05e6407-f9f9-4570-bbb8-71dfa74da993",
+    "roundId": "c636e6c3-1c68-498a-8c48-31f1a06d0011",
+    "seq": 1,
+    "action": "cashout"
+   },
+   "response": {
+    "game": {
+     "id": 192466,
+     "roundId": "c636e6c3-1c68-498a-8c48-31f1a06d0011",
+     "currency": 1,
+     "active": false,
+     "seq": 2,
+     "phase": "settled",
+     "difficulty": "medium",
+     "traps": 3,
+     "lanes": 22,
+     "auto": false,
+     "stake": 0,
+     "maxWin": 1000310.0961298,
+     "position": 1,
+     "hit": null,
+     "field": [
+      18,
+      11,
+      23
+     ],
+     "trapLane": 12,
+     "multiplier": 1.125,
+     "value": 0,
+     "next": null,
+     "options": {
+      "step": false,
+      "cashout": false,
+      "maxWin": false
+     },
+     "outcome": "cashout",
+     "payout": 0,
+     "createdAt": "2026-11-08T08:21:49.237108Z",
+     "settledAt": "2026-11-08T08:21:53.085812448Z"
+    },
+    "round": {
+     "roundId": "c636e6c3-1c68-498a-8c48-31f1a06d0011",
+     "stake": 0,
+     "payout": 0,
+     "delta": 0,
+     "settledAt": 1794126113085
+    }
+   },
+   "live_check": true
+  },
+  {
+   "method": "POST",
+   "path": "/road/bet",
+   "request": {
+    "generation": "d235bf09-19c7-4691-bccf-4af4b140f95a",
+    "amount": 0,
+    "difficulty": "medium",
+    "currency": 1
+   },
+   "response": {
+    "balance": 0,
+    "game": {
+     "id": 192479,
+     "roundId": "e67e5d59-6d8d-46b7-8496-b46b37950e4c",
+     "currency": 1,
+     "active": true,
+     "seq": 0,
+     "phase": "playing",
+     "difficulty": "medium",
+     "traps": 3,
+     "lanes": 22,
+     "auto": false,
+     "stake": 0,
+     "maxWin": 1000310.0961298,
+     "position": 0,
+     "hit": null,
+     "field": null,
+     "trapLane": null,
+     "multiplier": 0,
+     "value": 0,
+     "next": {
+      "multiplier": 1.125,
+      "value": 0
+     },
+     "options": {
+      "step": true,
+      "cashout": false,
+      "maxWin": false
+     },
+     "payout": 0,
+     "createdAt": "2026-11-08T08:21:58.827871182Z"
+    }
+   },
+   "live_check": true
+  },
+  {
+   "method": "POST",
+   "path": "/road/action",
+   "request": {
+    "generation": "a1a740dd-ce36-4b93-8b73-5dc00b448a1b",
+    "roundId": "e67e5d59-6d8d-46b7-8496-b46b37950e4c",
+    "seq": 0,
+    "action": "step"
+   },
+   "response": {
+    "game": {
+     "id": 192479,
+     "roundId": "e67e5d59-6d8d-46b7-8496-b46b37950e4c",
+     "currency": 1,
+     "active": false,
+     "seq": 1,
+     "phase": "settled",
+     "difficulty": "medium",
+     "traps": 3,
+     "lanes": 22,
+     "auto": false,
+     "stake": 0,
+     "maxWin": 1000310.0961298,
+     "position": 0,
+     "hit": 1,
+     "field": [
+      7,
+      0,
+      16
+     ],
+     "trapLane": 1,
+     "multiplier": 0,
+     "value": 0,
+     "next": null,
+     "options": {
+      "step": false,
+      "cashout": false,
+      "maxWin": false
+     },
+     "outcome": "trap",
+     "payout": 0,
+     "createdAt": "2026-11-08T08:21:58.827871Z",
+     "settledAt": "2026-11-08T08:22:00.8783932Z"
+    },
+    "round": {
+     "roundId": "e67e5d59-6d8d-46b7-8496-b46b37950e4c",
+     "stake": 0,
+     "payout": 0,
+     "delta": 0,
+     "settledAt": 1794126120878
+    }
+   },
+   "live_check": true
+  },
+  {
+   "method": "POST",
+   "path": "/road/bet",
+   "request": {
+    "generation": "4e81ee59-29a3-44cd-a9c9-33c1e8a814f3",
+    "amount": 0,
+    "difficulty": "medium",
+    "currency": 1
+   },
+   "response": {
+    "balance": 0,
+    "game": {
+     "id": 192500,
+     "roundId": "e9235e7c-cc2e-49e0-8e70-052f97fef847",
+     "currency": 1,
+     "active": true,
+     "seq": 0,
+     "phase": "playing",
+     "difficulty": "medium",
+     "traps": 3,
+     "lanes": 22,
+     "auto": false,
+     "stake": 0,
+     "maxWin": 1000310.0961298,
+     "position": 0,
+     "hit": null,
+     "field": null,
+     "trapLane": null,
+     "multiplier": 0,
+     "value": 0,
+     "next": {
+      "multiplier": 1.125,
+      "value": 0
+     },
+     "options": {
+      "step": true,
+      "cashout": false,
+      "maxWin": false
+     },
+     "payout": 0,
+     "createdAt": "2026-11-08T08:22:12.519544538Z"
+    }
+   },
+   "live_check": true
+  },
+  {
+   "method": "POST",
+   "path": "/road/action",
+   "request": {
+    "generation": "c5c71cb3-c2f3-4041-bbca-cf4580e809e0",
+    "roundId": "e9235e7c-cc2e-49e0-8e70-052f97fef847",
+    "seq": 0,
+    "action": "step"
+   },
+   "response": {
+    "game": {
+     "id": 192500,
+     "roundId": "e9235e7c-cc2e-49e0-8e70-052f97fef847",
+     "currency": 1,
+     "active": true,
+     "seq": 1,
+     "phase": "playing",
+     "difficulty": "medium",
+     "traps": 3,
+     "lanes": 22,
+     "auto": false,
+     "stake": 0,
+     "maxWin": 1000310.0961298,
+     "position": 1,
+     "hit": null,
+     "field": null,
+     "trapLane": null,
+     "multiplier": 1.125,
+     "value": 0,
+     "next": {
+      "multiplier": 1.2857142857142858,
+      "value": 0
+     },
+     "options": {
+      "step": true,
+      "cashout": true,
+      "maxWin": false
+     },
+     "payout": 0,
+     "createdAt": "2026-11-08T08:22:12.519544Z"
+    }
+   },
+   "live_check": true
+  },
+  {
+   "method": "POST",
+   "path": "/road/action",
+   "request": {
+    "generation": "22d0fcf8-c289-46f4-a3a9-52a794570b4b",
+    "roundId": "e9235e7c-cc2e-49e0-8e70-052f97fef847",
+    "seq": 1,
+    "action": "step"
+   },
+   "response": {
+    "game": {
+     "id": 192500,
+     "roundId": "e9235e7c-cc2e-49e0-8e70-052f97fef847",
+     "currency": 1,
+     "active": true,
+     "seq": 2,
+     "phase": "playing",
+     "difficulty": "medium",
+     "traps": 3,
+     "lanes": 22,
+     "auto": false,
+     "stake": 0,
+     "maxWin": 1000310.0961298,
+     "position": 2,
+     "hit": null,
+     "field": null,
+     "trapLane": null,
+     "multiplier": 1.2857142857142858,
+     "value": 0,
+     "next": {
+      "multiplier": 1.4785714285714286,
+      "value": 0
+     },
+     "options": {
+      "step": true,
+      "cashout": true,
+      "maxWin": false
+     },
+     "payout": 0,
+     "createdAt": "2026-11-08T08:22:12.519544Z"
+    }
+   },
+   "live_check": true
+  },
+  {
+   "method": "POST",
+   "path": "/road/action",
+   "request": {
+    "generation": "f85c6843-4524-4ec2-b394-dd556a35271d",
+    "roundId": "e9235e7c-cc2e-49e0-8e70-052f97fef847",
+    "seq": 2,
+    "action": "step"
+   },
+   "response": {
+    "game": {
+     "id": 192500,
+     "roundId": "e9235e7c-cc2e-49e0-8e70-052f97fef847",
+     "currency": 1,
+     "active": true,
+     "seq": 3,
+     "phase": "playing",
+     "difficulty": "medium",
+     "traps": 3,
+     "lanes": 22,
+     "auto": false,
+     "stake": 0,
+     "maxWin": 1000310.0961298,
+     "position": 3,
+     "hit": null,
+     "field": null,
+     "trapLane": null,
+     "multiplier": 1.4785714285714286,
+     "value": 0,
+     "next": {
+      "multiplier": 1.71203007518797,
+      "value": 0
+     },
+     "options": {
+      "step": true,
+      "cashout": true,
+      "maxWin": false
+     },
+     "payout": 0,
+     "createdAt": "2026-11-08T08:22:12.519544Z"
+    }
+   },
+   "live_check": true
+  },
+  {
+   "method": "POST",
+   "path": "/road/action",
+   "request": {
+    "generation": "185f81b4-8bb7-4e14-9bd5-bbc720e4eba2",
+    "roundId": "e9235e7c-cc2e-49e0-8e70-052f97fef847",
+    "seq": 3,
+    "action": "cashout"
+   },
+   "response": {
+    "game": {
+     "id": 192500,
+     "roundId": "e9235e7c-cc2e-49e0-8e70-052f97fef847",
+     "currency": 1,
+     "active": false,
+     "seq": 4,
+     "phase": "settled",
+     "difficulty": "medium",
+     "traps": 3,
+     "lanes": 22,
+     "auto": false,
+     "stake": 0,
+     "maxWin": 1000310.0961298,
+     "position": 3,
+     "hit": null,
+     "field": [
+      8,
+      20,
+      23
+     ],
+     "trapLane": 9,
+     "multiplier": 1.4785714285714286,
+     "value": 0,
+     "next": null,
+     "options": {
+      "step": false,
+      "cashout": false,
+      "maxWin": false
+     },
+     "outcome": "cashout",
+     "payout": 0,
+     "createdAt": "2026-11-08T08:22:12.519544Z",
+     "settledAt": "2026-11-08T08:22:24.968903224Z"
+    },
+    "round": {
+     "roundId": "e9235e7c-cc2e-49e0-8e70-052f97fef847",
+     "stake": 0,
+     "payout": 0,
+     "delta": 0,
+     "settledAt": 1794126144968
+    }
+   },
+   "live_check": true
+  }
+ ]
+}

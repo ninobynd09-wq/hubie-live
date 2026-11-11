@@ -1,0 +1,2166 @@
+{
+ "keno_bet": {
+  "url": "https://games.housebets.com/keno2/bet",
+  "request": {
+   "generation": "ca29f10d-b26c-4066-9a8e-8bb31d153289",
+   "amount": 0,
+   "risk": "low",
+   "spots": [
+    6,
+    18,
+    32
+   ],
+   "currency": 1
+  },
+  "response": {
+   "game": {
+    "id": 4449309,
+    "roundId": "8e9cf9dd-2654-4651-8e49-862dc0d3e68a",
+    "publicId": "IhbbQtR7mxySyDCgD8CPQ",
+    "currency": 1,
+    "active": false,
+    "risk": "low",
+    "spots": [
+     6,
+     18,
+     32
+    ],
+    "balls": [
+     16,
+     14,
+     22,
+     27,
+     13,
+     21,
+     39,
+     18,
+     29,
+     11
+    ],
+    "hits": 1,
+    "micro": 1100000,
+    "multiplier": 1.1,
+    "stake": 0,
+    "payout": 0,
+    "outcome": "win",
+    "createdAt": "2026-11-08T15:18:02.950185609Z",
+    "settledAt": "2026-11-08T15:18:02.949642294Z"
+   },
+   "round": {
+    "roundId": "8e9cf9dd-2654-4651-8e49-862dc0d3e68a",
+    "stake": 0,
+    "payout": 0,
+    "delta": 0,
+    "settledAt": 1794151082949
+   }
+  }
+ },
+ "blackjack": [
+  {
+   "url": "https://games.housebets.com/blackjack7/action",
+   "request": {
+    "generation": "3abe5372-7b66-49f3-a7ab-c74386869b4f",
+    "roundId": "907d9b9f-39de-465e-bbd0-5ac7d623df51",
+    "seq": 0,
+    "action": "stand"
+   },
+   "response": {
+    "game": {
+     "id": 451335,
+     "roundId": "907d9b9f-39de-465e-bbd0-5ac7d623df51",
+     "publicId": "cZNwoVHhIoe5u1FaFDCJF",
+     "currency": 1,
+     "active": false,
+     "seq": 1,
+     "phase": "settled",
+     "seats": 1,
+     "stakes": {
+      "main": 0,
+      "perfectPairs": 0,
+      "twentyOnePlusThree": 0
+     },
+     "dealer": {
+      "cards": [
+       "JC",
+       "8S"
+      ],
+      "value": 18,
+      "soft": false,
+      "natural": false
+     },
+     "hands": [
+      {
+       "seat": 0,
+       "split": false,
+       "cards": [
+        "6C",
+        "4H"
+       ],
+       "value": 10,
+       "soft": false,
+       "natural": false,
+       "status": "stood",
+       "stake": 0,
+       "outcome": "lose",
+       "payout": 0
+      }
+     ],
+     "turn": -1,
+     "options": {
+      "hit": false,
+      "stand": false,
+      "double": false,
+      "split": false,
+      "cashout": false,
+      "skip": false,
+      "insurance": false,
+      "doubleCost": 0,
+      "splitCost": 0,
+      "quote": 0
+     },
+     "insurance": {
+      "offered": false,
+      "decided": false,
+      "taken": false,
+      "cost": 0,
+      "payout": 0
+     },
+     "skips": 0,
+     "skipsLeft": 10,
+     "sides": [
+      {
+       "seat": 0,
+       "perfectPairs": "",
+       "perfectPairsPayout": 0,
+       "twentyOnePlusThree": "",
+       "twentyOnePlusThreePayout": 0
+      }
+     ],
+     "draws": [
+      {
+       "index": 0,
+       "card": "6C",
+       "to": "seat",
+       "hand": 0
+      },
+      {
+       "index": 1,
+       "card": "JC",
+       "to": "dealer",
+       "hand": -1
+      },
+      {
+       "index": 2,
+       "card": "4H",
+       "to": "seat",
+       "hand": 0
+      },
+      {
+       "index": 3,
+       "card": "8S",
+       "to": "hole",
+       "hand": -1
+      }
+     ],
+     "actions": [
+      "stand"
+     ],
+     "staked": 0,
+     "payout": 0,
+     "rules": 3,
+     "createdAt": "2026-11-08T15:18:29.894397Z",
+     "settledAt": "2026-11-08T15:20:20.468465142Z"
+    },
+    "round": {
+     "roundId": "907d9b9f-39de-465e-bbd0-5ac7d623df51",
+     "stake": 0,
+     "payout": 0,
+     "delta": 0,
+     "settledAt": 1794151220468
+    }
+   }
+  },
+  {
+   "url": "https://games.housebets.com/blackjack7/bet",
+   "request": {
+    "generation": "e47ef3f2-94b3-4130-9cb1-03339232c0f7",
+    "seats": 1,
+    "amount": 0,
+    "perfectPairs": 0,
+    "twentyOnePlusThree": 0,
+    "currency": 1
+   },
+   "response": {
+    "game": {
+     "id": 451336,
+     "roundId": "2e5a3395-e603-47cb-aa1b-16067a027666",
+     "publicId": "6srkbEGjLYMUGgOjdKKyb",
+     "currency": 1,
+     "active": true,
+     "seq": 0,
+     "phase": "playing",
+     "seats": 1,
+     "stakes": {
+      "main": 0,
+      "perfectPairs": 0,
+      "twentyOnePlusThree": 0
+     },
+     "dealer": {
+      "cards": [
+       "6C",
+       null
+      ],
+      "value": 6,
+      "soft": false,
+      "natural": false
+     },
+     "hands": [
+      {
+       "seat": 0,
+       "split": false,
+       "cards": [
+        "9H",
+        "AS"
+       ],
+       "value": 20,
+       "soft": true,
+       "natural": false,
+       "status": "open",
+       "stake": 0,
+       "payout": 0
+      }
+     ],
+     "turn": 0,
+     "options": {
+      "hit": true,
+      "stand": true,
+      "double": true,
+      "split": false,
+      "cashout": true,
+      "skip": true,
+      "insurance": false,
+      "doubleCost": 0,
+      "splitCost": 0,
+      "quote": 0
+     },
+     "insurance": {
+      "offered": false,
+      "decided": false,
+      "taken": false,
+      "cost": 0,
+      "payout": 0
+     },
+     "skips": 0,
+     "skipsLeft": 10,
+     "sides": [
+      {
+       "seat": 0,
+       "perfectPairs": "",
+       "perfectPairsPayout": 0,
+       "twentyOnePlusThree": "",
+       "twentyOnePlusThreePayout": 0
+      }
+     ],
+     "draws": [
+      {
+       "index": 0,
+       "card": "9H",
+       "to": "seat",
+       "hand": 0
+      },
+      {
+       "index": 1,
+       "card": "6C",
+       "to": "dealer",
+       "hand": -1
+      },
+      {
+       "index": 2,
+       "card": "AS",
+       "to": "seat",
+       "hand": 0
+      },
+      {
+       "index": 3,
+       "card": null,
+       "to": "hole",
+       "hand": -1
+      }
+     ],
+     "actions": [],
+     "staked": 0,
+     "payout": 0,
+     "rules": 3,
+     "createdAt": "2026-11-08T15:20:24.856411657Z"
+    }
+   }
+  },
+  {
+   "url": "https://games.housebets.com/blackjack7/action",
+   "request": {
+    "generation": "e7f49860-a682-4571-85ff-db690098c501",
+    "roundId": "2e5a3395-e603-47cb-aa1b-16067a027666",
+    "seq": 0,
+    "action": "stand"
+   },
+   "response": {
+    "game": {
+     "id": 451336,
+     "roundId": "2e5a3395-e603-47cb-aa1b-16067a027666",
+     "publicId": "6srkbEGjLYMUGgOjdKKyb",
+     "currency": 1,
+     "active": false,
+     "seq": 1,
+     "phase": "settled",
+     "seats": 1,
+     "stakes": {
+      "main": 0,
+      "perfectPairs": 0,
+      "twentyOnePlusThree": 0
+     },
+     "dealer": {
+      "cards": [
+       "6C",
+       "2C",
+       "3D",
+       "5S",
+       "9D"
+      ],
+      "value": 25,
+      "soft": false,
+      "natural": false
+     },
+     "hands": [
+      {
+       "seat": 0,
+       "split": false,
+       "cards": [
+        "9H",
+        "AS"
+       ],
+       "value": 20,
+       "soft": true,
+       "natural": false,
+       "status": "stood",
+       "stake": 0,
+       "outcome": "win",
+       "payout": 0
+      }
+     ],
+     "turn": -1,
+     "options": {
+      "hit": false,
+      "stand": false,
+      "double": false,
+      "split": false,
+      "cashout": false,
+      "skip": false,
+      "insurance": false,
+      "doubleCost": 0,
+      "splitCost": 0,
+      "quote": 0
+     },
+     "insurance": {
+      "offered": false,
+      "decided": false,
+      "taken": false,
+      "cost": 0,
+      "payout": 0
+     },
+     "skips": 0,
+     "skipsLeft": 10,
+     "sides": [
+      {
+       "seat": 0,
+       "perfectPairs": "",
+       "perfectPairsPayout": 0,
+       "twentyOnePlusThree": "",
+       "twentyOnePlusThreePayout": 0
+      }
+     ],
+     "draws": [
+      {
+       "index": 0,
+       "card": "9H",
+       "to": "seat",
+       "hand": 0
+      },
+      {
+       "index": 1,
+       "card": "6C",
+       "to": "dealer",
+       "hand": -1
+      },
+      {
+       "index": 2,
+       "card": "AS",
+       "to": "seat",
+       "hand": 0
+      },
+      {
+       "index": 3,
+       "card": "2C",
+       "to": "hole",
+       "hand": -1
+      },
+      {
+       "index": 4,
+       "card": "3D",
+       "to": "dealer",
+       "hand": -1
+      },
+      {
+       "index": 5,
+       "card": "5S",
+       "to": "dealer",
+       "hand": -1
+      },
+      {
+       "index": 6,
+       "card": "9D",
+       "to": "dealer",
+       "hand": -1
+      }
+     ],
+     "actions": [
+      "stand"
+     ],
+     "staked": 0,
+     "payout": 0,
+     "rules": 3,
+     "createdAt": "2026-11-08T15:20:24.856411Z",
+     "settledAt": "2026-11-08T15:20:29.508884963Z"
+    },
+    "round": {
+     "roundId": "2e5a3395-e603-47cb-aa1b-16067a027666",
+     "stake": 0,
+     "payout": 0,
+     "delta": 0,
+     "settledAt": 1794151229508
+    }
+   }
+  },
+  {
+   "url": "https://games.housebets.com/blackjack7/bet",
+   "request": {
+    "generation": "389cf4a3-98d0-4810-a082-dbcf4cf71a83",
+    "seats": 1,
+    "amount": 0,
+    "perfectPairs": 0,
+    "twentyOnePlusThree": 0,
+    "currency": 1
+   },
+   "response": {
+    "game": {
+     "id": 451337,
+     "roundId": "a77a78cf-4f8a-49af-ae77-3e8430f92fe4",
+     "publicId": "ozIrk2Q6HvEgnKtayFMVW",
+     "currency": 1,
+     "active": true,
+     "seq": 0,
+     "phase": "playing",
+     "seats": 1,
+     "stakes": {
+      "main": 0,
+      "perfectPairs": 0,
+      "twentyOnePlusThree": 0
+     },
+     "dealer": {
+      "cards": [
+       "JS",
+       null
+      ],
+      "value": 10,
+      "soft": false,
+      "natural": false
+     },
+     "hands": [
+      {
+       "seat": 0,
+       "split": false,
+       "cards": [
+        "8H",
+        "TS"
+       ],
+       "value": 18,
+       "soft": false,
+       "natural": false,
+       "status": "open",
+       "stake": 0,
+       "payout": 0
+      }
+     ],
+     "turn": 0,
+     "options": {
+      "hit": true,
+      "stand": true,
+      "double": true,
+      "split": false,
+      "cashout": true,
+      "skip": true,
+      "insurance": false,
+      "doubleCost": 0,
+      "splitCost": 0,
+      "quote": 0
+     },
+     "insurance": {
+      "offered": false,
+      "decided": false,
+      "taken": false,
+      "cost": 0,
+      "payout": 0
+     },
+     "skips": 0,
+     "skipsLeft": 10,
+     "sides": [
+      {
+       "seat": 0,
+       "perfectPairs": "",
+       "perfectPairsPayout": 0,
+       "twentyOnePlusThree": "",
+       "twentyOnePlusThreePayout": 0
+      }
+     ],
+     "draws": [
+      {
+       "index": 0,
+       "card": "8H",
+       "to": "seat",
+       "hand": 0
+      },
+      {
+       "index": 1,
+       "card": "JS",
+       "to": "dealer",
+       "hand": -1
+      },
+      {
+       "index": 2,
+       "card": "TS",
+       "to": "seat",
+       "hand": 0
+      },
+      {
+       "index": 3,
+       "card": null,
+       "to": "hole",
+       "hand": -1
+      }
+     ],
+     "actions": [],
+     "staked": 0,
+     "payout": 0,
+     "rules": 3,
+     "createdAt": "2026-11-08T15:20:35.348638627Z"
+    }
+   }
+  },
+  {
+   "url": "https://games.housebets.com/blackjack7/action",
+   "request": {
+    "generation": "37e069c6-bc70-47ec-be36-ef88b42bbf00",
+    "roundId": "a77a78cf-4f8a-49af-ae77-3e8430f92fe4",
+    "seq": 0,
+    "action": "stand"
+   },
+   "response": {
+    "game": {
+     "id": 451337,
+     "roundId": "a77a78cf-4f8a-49af-ae77-3e8430f92fe4",
+     "publicId": "ozIrk2Q6HvEgnKtayFMVW",
+     "currency": 1,
+     "active": false,
+     "seq": 1,
+     "phase": "settled",
+     "seats": 1,
+     "stakes": {
+      "main": 0,
+      "perfectPairs": 0,
+      "twentyOnePlusThree": 0
+     },
+     "dealer": {
+      "cards": [
+       "JS",
+       "4C",
+       "KC"
+      ],
+      "value": 24,
+      "soft": false,
+      "natural": false
+     },
+     "hands": [
+      {
+       "seat": 0,
+       "split": false,
+       "cards": [
+        "8H",
+        "TS"
+       ],
+       "value": 18,
+       "soft": false,
+       "natural": false,
+       "status": "stood",
+       "stake": 0,
+       "outcome": "win",
+       "payout": 0
+      }
+     ],
+     "turn": -1,
+     "options": {
+      "hit": false,
+      "stand": false,
+      "double": false,
+      "split": false,
+      "cashout": false,
+      "skip": false,
+      "insurance": false,
+      "doubleCost": 0,
+      "splitCost": 0,
+      "quote": 0
+     },
+     "insurance": {
+      "offered": false,
+      "decided": false,
+      "taken": false,
+      "cost": 0,
+      "payout": 0
+     },
+     "skips": 0,
+     "skipsLeft": 10,
+     "sides": [
+      {
+       "seat": 0,
+       "perfectPairs": "",
+       "perfectPairsPayout": 0,
+       "twentyOnePlusThree": "",
+       "twentyOnePlusThreePayout": 0
+      }
+     ],
+     "draws": [
+      {
+       "index": 0,
+       "card": "8H",
+       "to": "seat",
+       "hand": 0
+      },
+      {
+       "index": 1,
+       "card": "JS",
+       "to": "dealer",
+       "hand": -1
+      },
+      {
+       "index": 2,
+       "card": "TS",
+       "to": "seat",
+       "hand": 0
+      },
+      {
+       "index": 3,
+       "card": "4C",
+       "to": "hole",
+       "hand": -1
+      },
+      {
+       "index": 4,
+       "card": "KC",
+       "to": "dealer",
+       "hand": -1
+      }
+     ],
+     "actions": [
+      "stand"
+     ],
+     "staked": 0,
+     "payout": 0,
+     "rules": 3,
+     "createdAt": "2026-11-08T15:20:35.348638Z",
+     "settledAt": "2026-11-08T15:20:39.110660491Z"
+    },
+    "round": {
+     "roundId": "a77a78cf-4f8a-49af-ae77-3e8430f92fe4",
+     "stake": 0,
+     "payout": 0,
+     "delta": 0,
+     "settledAt": 1794151239110
+    }
+   }
+  }
+ ],
+ "blackjack_hits": [
+  {
+   "url": "https://games.housebets.com/blackjack7/bet",
+   "request": {
+    "generation": "d22ce3c4-ea40-4eab-a379-5c45af201670",
+    "seats": 1,
+    "amount": 0,
+    "perfectPairs": 0,
+    "twentyOnePlusThree": 0,
+    "currency": 1
+   },
+   "response": {
+    "game": {
+     "id": 451355,
+     "roundId": "4ddc8d76-b077-4856-aa8b-cc30c6cd378c",
+     "publicId": "apQyRYFrF0Cz0nvqPUrXS",
+     "currency": 1,
+     "active": true,
+     "seq": 0,
+     "phase": "playing",
+     "seats": 1,
+     "stakes": {
+      "main": 0,
+      "perfectPairs": 0,
+      "twentyOnePlusThree": 0
+     },
+     "dealer": {
+      "cards": [
+       "QH",
+       null
+      ],
+      "value": 10,
+      "soft": false,
+      "natural": false
+     },
+     "hands": [
+      {
+       "seat": 0,
+       "split": false,
+       "cards": [
+        "4C",
+        "3D"
+       ],
+       "value": 7,
+       "soft": false,
+       "natural": false,
+       "status": "open",
+       "stake": 0,
+       "payout": 0
+      }
+     ],
+     "turn": 0,
+     "options": {
+      "hit": true,
+      "stand": true,
+      "double": true,
+      "split": false,
+      "cashout": true,
+      "skip": true,
+      "insurance": false,
+      "doubleCost": 0,
+      "splitCost": 0,
+      "quote": 0
+     },
+     "insurance": {
+      "offered": false,
+      "decided": false,
+      "taken": false,
+      "cost": 0,
+      "payout": 0
+     },
+     "skips": 0,
+     "skipsLeft": 10,
+     "sides": [
+      {
+       "seat": 0,
+       "perfectPairs": "",
+       "perfectPairsPayout": 0,
+       "twentyOnePlusThree": "",
+       "twentyOnePlusThreePayout": 0
+      }
+     ],
+     "draws": [
+      {
+       "index": 0,
+       "card": "4C",
+       "to": "seat",
+       "hand": 0
+      },
+      {
+       "index": 1,
+       "card": "QH",
+       "to": "dealer",
+       "hand": -1
+      },
+      {
+       "index": 2,
+       "card": "3D",
+       "to": "seat",
+       "hand": 0
+      },
+      {
+       "index": 3,
+       "card": null,
+       "to": "hole",
+       "hand": -1
+      }
+     ],
+     "actions": [],
+     "staked": 0,
+     "payout": 0,
+     "rules": 3,
+     "createdAt": "2026-11-08T15:25:57.85403829Z"
+    }
+   }
+  },
+  {
+   "url": "https://games.housebets.com/blackjack7/action",
+   "request": {
+    "generation": "c6ad63a9-d8a2-41c2-8e13-5417ef705ee1",
+    "roundId": "4ddc8d76-b077-4856-aa8b-cc30c6cd378c",
+    "seq": 0,
+    "action": "hit"
+   },
+   "response": {
+    "game": {
+     "id": 451355,
+     "roundId": "4ddc8d76-b077-4856-aa8b-cc30c6cd378c",
+     "publicId": "apQyRYFrF0Cz0nvqPUrXS",
+     "currency": 1,
+     "active": true,
+     "seq": 1,
+     "phase": "playing",
+     "seats": 1,
+     "stakes": {
+      "main": 0,
+      "perfectPairs": 0,
+      "twentyOnePlusThree": 0
+     },
+     "dealer": {
+      "cards": [
+       "QH",
+       null
+      ],
+      "value": 10,
+      "soft": false,
+      "natural": false
+     },
+     "hands": [
+      {
+       "seat": 0,
+       "split": false,
+       "cards": [
+        "4C",
+        "3D",
+        "AS"
+       ],
+       "value": 18,
+       "soft": true,
+       "natural": false,
+       "status": "open",
+       "stake": 0,
+       "payout": 0
+      }
+     ],
+     "turn": 0,
+     "options": {
+      "hit": true,
+      "stand": true,
+      "double": false,
+      "split": false,
+      "cashout": true,
+      "skip": true,
+      "insurance": false,
+      "doubleCost": 0,
+      "splitCost": 0,
+      "quote": 0
+     },
+     "insurance": {
+      "offered": false,
+      "decided": false,
+      "taken": false,
+      "cost": 0,
+      "payout": 0
+     },
+     "skips": 0,
+     "skipsLeft": 10,
+     "sides": [
+      {
+       "seat": 0,
+       "perfectPairs": "",
+       "perfectPairsPayout": 0,
+       "twentyOnePlusThree": "",
+       "twentyOnePlusThreePayout": 0
+      }
+     ],
+     "draws": [
+      {
+       "index": 0,
+       "card": "4C",
+       "to": "seat",
+       "hand": 0
+      },
+      {
+       "index": 1,
+       "card": "QH",
+       "to": "dealer",
+       "hand": -1
+      },
+      {
+       "index": 2,
+       "card": "3D",
+       "to": "seat",
+       "hand": 0
+      },
+      {
+       "index": 3,
+       "card": null,
+       "to": "hole",
+       "hand": -1
+      },
+      {
+       "index": 4,
+       "card": "AS",
+       "to": "seat",
+       "hand": 0
+      }
+     ],
+     "actions": [
+      "hit"
+     ],
+     "staked": 0,
+     "payout": 0,
+     "rules": 3,
+     "createdAt": "2026-11-08T15:25:57.854038Z"
+    }
+   }
+  },
+  {
+   "url": "https://games.housebets.com/blackjack7/action",
+   "request": {
+    "generation": "2db6396c-67bb-4e17-ba0b-f76f30996302",
+    "roundId": "4ddc8d76-b077-4856-aa8b-cc30c6cd378c",
+    "seq": 1,
+    "action": "hit"
+   },
+   "response": {
+    "game": {
+     "id": 451355,
+     "roundId": "4ddc8d76-b077-4856-aa8b-cc30c6cd378c",
+     "publicId": "apQyRYFrF0Cz0nvqPUrXS",
+     "currency": 1,
+     "active": true,
+     "seq": 2,
+     "phase": "playing",
+     "seats": 1,
+     "stakes": {
+      "main": 0,
+      "perfectPairs": 0,
+      "twentyOnePlusThree": 0
+     },
+     "dealer": {
+      "cards": [
+       "QH",
+       null
+      ],
+      "value": 10,
+      "soft": false,
+      "natural": false
+     },
+     "hands": [
+      {
+       "seat": 0,
+       "split": false,
+       "cards": [
+        "4C",
+        "3D",
+        "AS",
+        "4D"
+       ],
+       "value": 12,
+       "soft": false,
+       "natural": false,
+       "status": "open",
+       "stake": 0,
+       "payout": 0
+      }
+     ],
+     "turn": 0,
+     "options": {
+      "hit": true,
+      "stand": true,
+      "double": false,
+      "split": false,
+      "cashout": true,
+      "skip": true,
+      "insurance": false,
+      "doubleCost": 0,
+      "splitCost": 0,
+      "quote": 0
+     },
+     "insurance": {
+      "offered": false,
+      "decided": false,
+      "taken": false,
+      "cost": 0,
+      "payout": 0
+     },
+     "skips": 0,
+     "skipsLeft": 10,
+     "sides": [
+      {
+       "seat": 0,
+       "perfectPairs": "",
+       "perfectPairsPayout": 0,
+       "twentyOnePlusThree": "",
+       "twentyOnePlusThreePayout": 0
+      }
+     ],
+     "draws": [
+      {
+       "index": 0,
+       "card": "4C",
+       "to": "seat",
+       "hand": 0
+      },
+      {
+       "index": 1,
+       "card": "QH",
+       "to": "dealer",
+       "hand": -1
+      },
+      {
+       "index": 2,
+       "card": "3D",
+       "to": "seat",
+       "hand": 0
+      },
+      {
+       "index": 3,
+       "card": null,
+       "to": "hole",
+       "hand": -1
+      },
+      {
+       "index": 4,
+       "card": "AS",
+       "to": "seat",
+       "hand": 0
+      },
+      {
+       "index": 5,
+       "card": "4D",
+       "to": "seat",
+       "hand": 0
+      }
+     ],
+     "actions": [
+      "hit",
+      "hit"
+     ],
+     "staked": 0,
+     "payout": 0,
+     "rules": 3,
+     "createdAt": "2026-11-08T15:25:57.854038Z"
+    }
+   }
+  },
+  {
+   "url": "https://games.housebets.com/blackjack7/action",
+   "request": {
+    "generation": "000e6ba7-5077-4ef9-87a4-c16f9ad182a5",
+    "roundId": "4ddc8d76-b077-4856-aa8b-cc30c6cd378c",
+    "seq": 2,
+    "action": "hit"
+   },
+   "response": {
+    "game": {
+     "id": 451355,
+     "roundId": "4ddc8d76-b077-4856-aa8b-cc30c6cd378c",
+     "publicId": "apQyRYFrF0Cz0nvqPUrXS",
+     "currency": 1,
+     "active": true,
+     "seq": 3,
+     "phase": "playing",
+     "seats": 1,
+     "stakes": {
+      "main": 0,
+      "perfectPairs": 0,
+      "twentyOnePlusThree": 0
+     },
+     "dealer": {
+      "cards": [
+       "QH",
+       null
+      ],
+      "value": 10,
+      "soft": false,
+      "natural": false
+     },
+     "hands": [
+      {
+       "seat": 0,
+       "split": false,
+       "cards": [
+        "4C",
+        "3D",
+        "AS",
+        "4D",
+        "5H"
+       ],
+       "value": 17,
+       "soft": false,
+       "natural": false,
+       "status": "open",
+       "stake": 0,
+       "payout": 0
+      }
+     ],
+     "turn": 0,
+     "options": {
+      "hit": true,
+      "stand": true,
+      "double": false,
+      "split": false,
+      "cashout": true,
+      "skip": true,
+      "insurance": false,
+      "doubleCost": 0,
+      "splitCost": 0,
+      "quote": 0
+     },
+     "insurance": {
+      "offered": false,
+      "decided": false,
+      "taken": false,
+      "cost": 0,
+      "payout": 0
+     },
+     "skips": 0,
+     "skipsLeft": 10,
+     "sides": [
+      {
+       "seat": 0,
+       "perfectPairs": "",
+       "perfectPairsPayout": 0,
+       "twentyOnePlusThree": "",
+       "twentyOnePlusThreePayout": 0
+      }
+     ],
+     "draws": [
+      {
+       "index": 0,
+       "card": "4C",
+       "to": "seat",
+       "hand": 0
+      },
+      {
+       "index": 1,
+       "card": "QH",
+       "to": "dealer",
+       "hand": -1
+      },
+      {
+       "index": 2,
+       "card": "3D",
+       "to": "seat",
+       "hand": 0
+      },
+      {
+       "index": 3,
+       "card": null,
+       "to": "hole",
+       "hand": -1
+      },
+      {
+       "index": 4,
+       "card": "AS",
+       "to": "seat",
+       "hand": 0
+      },
+      {
+       "index": 5,
+       "card": "4D",
+       "to": "seat",
+       "hand": 0
+      },
+      {
+       "index": 6,
+       "card": "5H",
+       "to": "seat",
+       "hand": 0
+      }
+     ],
+     "actions": [
+      "hit",
+      "hit",
+      "hit"
+     ],
+     "staked": 0,
+     "payout": 0,
+     "rules": 3,
+     "createdAt": "2026-11-08T15:25:57.854038Z"
+    }
+   }
+  },
+  {
+   "url": "https://games.housebets.com/blackjack7/action",
+   "request": {
+    "generation": "7615b98f-4d90-42d9-bb84-53c7bcab1fef",
+    "roundId": "4ddc8d76-b077-4856-aa8b-cc30c6cd378c",
+    "seq": 3,
+    "action": "stand"
+   },
+   "response": {
+    "game": {
+     "id": 451355,
+     "roundId": "4ddc8d76-b077-4856-aa8b-cc30c6cd378c",
+     "publicId": "apQyRYFrF0Cz0nvqPUrXS",
+     "currency": 1,
+     "active": false,
+     "seq": 4,
+     "phase": "settled",
+     "seats": 1,
+     "stakes": {
+      "main": 0,
+      "perfectPairs": 0,
+      "twentyOnePlusThree": 0
+     },
+     "dealer": {
+      "cards": [
+       "QH",
+       "9D"
+      ],
+      "value": 19,
+      "soft": false,
+      "natural": false
+     },
+     "hands": [
+      {
+       "seat": 0,
+       "split": false,
+       "cards": [
+        "4C",
+        "3D",
+        "AS",
+        "4D",
+        "5H"
+       ],
+       "value": 17,
+       "soft": false,
+       "natural": false,
+       "status": "stood",
+       "stake": 0,
+       "outcome": "lose",
+       "payout": 0
+      }
+     ],
+     "turn": -1,
+     "options": {
+      "hit": false,
+      "stand": false,
+      "double": false,
+      "split": false,
+      "cashout": false,
+      "skip": false,
+      "insurance": false,
+      "doubleCost": 0,
+      "splitCost": 0,
+      "quote": 0
+     },
+     "insurance": {
+      "offered": false,
+      "decided": false,
+      "taken": false,
+      "cost": 0,
+      "payout": 0
+     },
+     "skips": 0,
+     "skipsLeft": 10,
+     "sides": [
+      {
+       "seat": 0,
+       "perfectPairs": "",
+       "perfectPairsPayout": 0,
+       "twentyOnePlusThree": "",
+       "twentyOnePlusThreePayout": 0
+      }
+     ],
+     "draws": [
+      {
+       "index": 0,
+       "card": "4C",
+       "to": "seat",
+       "hand": 0
+      },
+      {
+       "index": 1,
+       "card": "QH",
+       "to": "dealer",
+       "hand": -1
+      },
+      {
+       "index": 2,
+       "card": "3D",
+       "to": "seat",
+       "hand": 0
+      },
+      {
+       "index": 3,
+       "card": "9D",
+       "to": "hole",
+       "hand": -1
+      },
+      {
+       "index": 4,
+       "card": "AS",
+       "to": "seat",
+       "hand": 0
+      },
+      {
+       "index": 5,
+       "card": "4D",
+       "to": "seat",
+       "hand": 0
+      },
+      {
+       "index": 6,
+       "card": "5H",
+       "to": "seat",
+       "hand": 0
+      }
+     ],
+     "actions": [
+      "hit",
+      "hit",
+      "hit",
+      "stand"
+     ],
+     "staked": 0,
+     "payout": 0,
+     "rules": 3,
+     "createdAt": "2026-11-08T15:25:57.854038Z",
+     "settledAt": "2026-11-08T15:26:19.435638503Z"
+    },
+    "round": {
+     "roundId": "4ddc8d76-b077-4856-aa8b-cc30c6cd378c",
+     "stake": 0,
+     "payout": 0,
+     "delta": 0,
+     "settledAt": 1794151579435
+    }
+   }
+  }
+ ],
+ "keno_more": [
+  {
+   "request": {
+    "generation": "984ae615-bac5-4c2b-bb08-b765fdae61a5",
+    "amount": 0,
+    "risk": "low",
+    "spots": [
+     13,
+     15,
+     16
+    ],
+    "currency": 1
+   },
+   "response": {
+    "game": {
+     "id": 4449694,
+     "roundId": "86407c9c-9b54-4803-aba4-6dd036257f5e",
+     "publicId": "Dmx3amilYhinhLp3120Wu",
+     "currency": 1,
+     "active": false,
+     "risk": "low",
+     "spots": [
+      13,
+      15,
+      16
+     ],
+     "balls": [
+      17,
+      34,
+      1,
+      38,
+      20,
+      39,
+      4,
+      25,
+      37,
+      11
+     ],
+     "hits": 0,
+     "micro": 0,
+     "multiplier": 0,
+     "stake": 0,
+     "payout": 0,
+     "outcome": "lose",
+     "createdAt": "2026-11-08T15:24:34.684619653Z",
+     "settledAt": "2026-11-08T15:24:34.683439443Z"
+    },
+    "round": {
+     "roundId": "86407c9c-9b54-4803-aba4-6dd036257f5e",
+     "stake": 0,
+     "payout": 0,
+     "delta": 0,
+     "settledAt": 1794151474683
+    }
+   }
+  },
+  {
+   "request": {
+    "generation": "ef4f86fc-af31-451e-aeff-41cc244f3778",
+    "amount": 0,
+    "risk": "high",
+    "spots": [
+     0,
+     11,
+     15,
+     20,
+     21,
+     23,
+     24,
+     27,
+     33,
+     38
+    ],
+    "currency": 1
+   },
+   "response": {
+    "game": {
+     "id": 4449698,
+     "roundId": "4e7ecdfa-f0e1-40b7-9e59-590699b079eb",
+     "publicId": "McZ4qIQJGv1S8RlbA7JSJ",
+     "currency": 1,
+     "active": false,
+     "risk": "high",
+     "spots": [
+      0,
+      11,
+      15,
+      20,
+      21,
+      23,
+      24,
+      27,
+      33,
+      38
+     ],
+     "balls": [
+      38,
+      23,
+      19,
+      36,
+      26,
+      22,
+      16,
+      13,
+      25,
+      8
+     ],
+     "hits": 2,
+     "micro": 0,
+     "multiplier": 0,
+     "stake": 0,
+     "payout": 0,
+     "outcome": "lose",
+     "createdAt": "2026-11-08T15:25:04.895601179Z",
+     "settledAt": "2026-11-08T15:25:04.895097303Z"
+    },
+    "round": {
+     "roundId": "4e7ecdfa-f0e1-40b7-9e59-590699b079eb",
+     "stake": 0,
+     "payout": 0,
+     "delta": 0,
+     "settledAt": 1794151504895
+    }
+   }
+  },
+  {
+   "request": {
+    "generation": "baf1929f-bfe7-4850-97df-83463e777c71",
+    "amount": 0,
+    "risk": "classic",
+    "spots": [
+     1,
+     10,
+     18,
+     25,
+     29,
+     39
+    ],
+    "currency": 1
+   },
+   "response": {
+    "game": {
+     "id": 4449700,
+     "roundId": "24c8c94f-4509-4d9e-b5df-a0fa89afbfbe",
+     "publicId": "ya8qQ3Dl7drtDL4vPelHJ",
+     "currency": 1,
+     "active": false,
+     "risk": "classic",
+     "spots": [
+      1,
+      10,
+      18,
+      25,
+      29,
+      39
+     ],
+     "balls": [
+      18,
+      16,
+      34,
+      11,
+      21,
+      24,
+      37,
+      32,
+      9,
+      7
+     ],
+     "hits": 1,
+     "micro": 0,
+     "multiplier": 0,
+     "stake": 0,
+     "payout": 0,
+     "outcome": "lose",
+     "createdAt": "2026-11-08T15:25:28.672844395Z",
+     "settledAt": "2026-11-08T15:25:28.672435531Z"
+    },
+    "round": {
+     "roundId": "24c8c94f-4509-4d9e-b5df-a0fa89afbfbe",
+     "stake": 0,
+     "payout": 0,
+     "delta": 0,
+     "settledAt": 1794151528672
+    }
+   }
+  }
+ ],
+ "blackjack_insurance": [
+  {
+   "url": "https://games.housebets.com/blackjack7/bet",
+   "request": {
+    "generation": "c54bcd5f-a05b-4d63-aedc-20475627d2b5",
+    "seats": 1,
+    "amount": 0,
+    "perfectPairs": 0,
+    "twentyOnePlusThree": 0,
+    "currency": 1
+   },
+   "response": {
+    "game": {
+     "id": 451422,
+     "roundId": "f26255f3-a951-42c9-8d41-abc6aa54290b",
+     "publicId": "kjOtVXdooGvI44oz3oKQ8",
+     "currency": 1,
+     "active": true,
+     "seq": 0,
+     "phase": "insurance",
+     "seats": 1,
+     "stakes": {
+      "main": 0,
+      "perfectPairs": 0,
+      "twentyOnePlusThree": 0
+     },
+     "dealer": {
+      "cards": [
+       "AS",
+       null
+      ],
+      "value": 11,
+      "soft": true,
+      "natural": false
+     },
+     "hands": [
+      {
+       "seat": 0,
+       "split": false,
+       "cards": [
+        "AS",
+        "2C"
+       ],
+       "value": 13,
+       "soft": true,
+       "natural": false,
+       "status": "open",
+       "stake": 0,
+       "payout": 0
+      }
+     ],
+     "turn": -1,
+     "options": {
+      "hit": false,
+      "stand": false,
+      "double": false,
+      "split": false,
+      "cashout": false,
+      "skip": false,
+      "insurance": true,
+      "doubleCost": 0,
+      "splitCost": 0,
+      "quote": 0
+     },
+     "insurance": {
+      "offered": true,
+      "decided": false,
+      "taken": false,
+      "cost": 0,
+      "payout": 0
+     },
+     "skips": 0,
+     "skipsLeft": 10,
+     "sides": [
+      {
+       "seat": 0,
+       "perfectPairs": "",
+       "perfectPairsPayout": 0,
+       "twentyOnePlusThree": "",
+       "twentyOnePlusThreePayout": 0
+      }
+     ],
+     "draws": [
+      {
+       "index": 0,
+       "card": "AS",
+       "to": "seat",
+       "hand": 0
+      },
+      {
+       "index": 1,
+       "card": "AS",
+       "to": "dealer",
+       "hand": -1
+      },
+      {
+       "index": 2,
+       "card": "2C",
+       "to": "seat",
+       "hand": 0
+      },
+      {
+       "index": 3,
+       "card": null,
+       "to": "hole",
+       "hand": -1
+      }
+     ],
+     "actions": [],
+     "staked": 0,
+     "payout": 0,
+     "rules": 3,
+     "createdAt": "2026-11-08T15:43:10.116105695Z"
+    }
+   }
+  },
+  {
+   "url": "https://games.housebets.com/blackjack7/action",
+   "request": {
+    "generation": "dd7ca715-e320-48f5-bea0-9e269cbf2969",
+    "roundId": "f26255f3-a951-42c9-8d41-abc6aa54290b",
+    "seq": 0,
+    "action": "noInsurance"
+   },
+   "response": {
+    "game": {
+     "id": 451422,
+     "roundId": "f26255f3-a951-42c9-8d41-abc6aa54290b",
+     "publicId": "kjOtVXdooGvI44oz3oKQ8",
+     "currency": 1,
+     "active": true,
+     "seq": 1,
+     "phase": "playing",
+     "seats": 1,
+     "stakes": {
+      "main": 0,
+      "perfectPairs": 0,
+      "twentyOnePlusThree": 0
+     },
+     "dealer": {
+      "cards": [
+       "AS",
+       null
+      ],
+      "value": 11,
+      "soft": true,
+      "natural": false
+     },
+     "hands": [
+      {
+       "seat": 0,
+       "split": false,
+       "cards": [
+        "AS",
+        "2C"
+       ],
+       "value": 13,
+       "soft": true,
+       "natural": false,
+       "status": "open",
+       "stake": 0,
+       "payout": 0
+      }
+     ],
+     "turn": 0,
+     "options": {
+      "hit": true,
+      "stand": true,
+      "double": true,
+      "split": false,
+      "cashout": true,
+      "skip": true,
+      "insurance": false,
+      "doubleCost": 0,
+      "splitCost": 0,
+      "quote": 0
+     },
+     "insurance": {
+      "offered": true,
+      "decided": true,
+      "taken": false,
+      "cost": 0,
+      "payout": 0
+     },
+     "skips": 0,
+     "skipsLeft": 10,
+     "sides": [
+      {
+       "seat": 0,
+       "perfectPairs": "",
+       "perfectPairsPayout": 0,
+       "twentyOnePlusThree": "",
+       "twentyOnePlusThreePayout": 0
+      }
+     ],
+     "draws": [
+      {
+       "index": 0,
+       "card": "AS",
+       "to": "seat",
+       "hand": 0
+      },
+      {
+       "index": 1,
+       "card": "AS",
+       "to": "dealer",
+       "hand": -1
+      },
+      {
+       "index": 2,
+       "card": "2C",
+       "to": "seat",
+       "hand": 0
+      },
+      {
+       "index": 3,
+       "card": null,
+       "to": "hole",
+       "hand": -1
+      }
+     ],
+     "actions": [
+      "noInsurance"
+     ],
+     "staked": 0,
+     "payout": 0,
+     "rules": 3,
+     "createdAt": "2026-11-08T15:43:10.116105Z"
+    }
+   }
+  },
+  {
+   "url": "https://games.housebets.com/blackjack7/action",
+   "request": {
+    "generation": "5a2b96d4-c4c2-461b-879e-f89be0f759a9",
+    "roundId": "f26255f3-a951-42c9-8d41-abc6aa54290b",
+    "seq": 1,
+    "action": "hit"
+   },
+   "response": {
+    "game": {
+     "id": 451422,
+     "roundId": "f26255f3-a951-42c9-8d41-abc6aa54290b",
+     "publicId": "kjOtVXdooGvI44oz3oKQ8",
+     "currency": 1,
+     "active": true,
+     "seq": 2,
+     "phase": "playing",
+     "seats": 1,
+     "stakes": {
+      "main": 0,
+      "perfectPairs": 0,
+      "twentyOnePlusThree": 0
+     },
+     "dealer": {
+      "cards": [
+       "AS",
+       null
+      ],
+      "value": 11,
+      "soft": true,
+      "natural": false
+     },
+     "hands": [
+      {
+       "seat": 0,
+       "split": false,
+       "cards": [
+        "AS",
+        "2C",
+        "JH"
+       ],
+       "value": 13,
+       "soft": false,
+       "natural": false,
+       "status": "open",
+       "stake": 0,
+       "payout": 0
+      }
+     ],
+     "turn": 0,
+     "options": {
+      "hit": true,
+      "stand": true,
+      "double": false,
+      "split": false,
+      "cashout": true,
+      "skip": true,
+      "insurance": false,
+      "doubleCost": 0,
+      "splitCost": 0,
+      "quote": 0
+     },
+     "insurance": {
+      "offered": true,
+      "decided": true,
+      "taken": false,
+      "cost": 0,
+      "payout": 0
+     },
+     "skips": 0,
+     "skipsLeft": 10,
+     "sides": [
+      {
+       "seat": 0,
+       "perfectPairs": "",
+       "perfectPairsPayout": 0,
+       "twentyOnePlusThree": "",
+       "twentyOnePlusThreePayout": 0
+      }
+     ],
+     "draws": [
+      {
+       "index": 0,
+       "card": "AS",
+       "to": "seat",
+       "hand": 0
+      },
+      {
+       "index": 1,
+       "card": "AS",
+       "to": "dealer",
+       "hand": -1
+      },
+      {
+       "index": 2,
+       "card": "2C",
+       "to": "seat",
+       "hand": 0
+      },
+      {
+       "index": 3,
+       "card": null,
+       "to": "hole",
+       "hand": -1
+      },
+      {
+       "index": 4,
+       "card": "JH",
+       "to": "seat",
+       "hand": 0
+      }
+     ],
+     "actions": [
+      "noInsurance",
+      "hit"
+     ],
+     "staked": 0,
+     "payout": 0,
+     "rules": 3,
+     "createdAt": "2026-11-08T15:43:10.116105Z"
+    }
+   }
+  },
+  {
+   "url": "https://games.housebets.com/blackjack7/action",
+   "request": {
+    "generation": "04f48635-537a-436f-82f6-90e66c3df391",
+    "roundId": "f26255f3-a951-42c9-8d41-abc6aa54290b",
+    "seq": 2,
+    "action": "hit"
+   },
+   "response": {
+    "game": {
+     "id": 451422,
+     "roundId": "f26255f3-a951-42c9-8d41-abc6aa54290b",
+     "publicId": "kjOtVXdooGvI44oz3oKQ8",
+     "currency": 1,
+     "active": true,
+     "seq": 3,
+     "phase": "playing",
+     "seats": 1,
+     "stakes": {
+      "main": 0,
+      "perfectPairs": 0,
+      "twentyOnePlusThree": 0
+     },
+     "dealer": {
+      "cards": [
+       "AS",
+       null
+      ],
+      "value": 11,
+      "soft": true,
+      "natural": false
+     },
+     "hands": [
+      {
+       "seat": 0,
+       "split": false,
+       "cards": [
+        "AS",
+        "2C",
+        "JH",
+        "2D"
+       ],
+       "value": 15,
+       "soft": false,
+       "natural": false,
+       "status": "open",
+       "stake": 0,
+       "payout": 0
+      }
+     ],
+     "turn": 0,
+     "options": {
+      "hit": true,
+      "stand": true,
+      "double": false,
+      "split": false,
+      "cashout": true,
+      "skip": true,
+      "insurance": false,
+      "doubleCost": 0,
+      "splitCost": 0,
+      "quote": 0
+     },
+     "insurance": {
+      "offered": true,
+      "decided": true,
+      "taken": false,
+      "cost": 0,
+      "payout": 0
+     },
+     "skips": 0,
+     "skipsLeft": 10,
+     "sides": [
+      {
+       "seat": 0,
+       "perfectPairs": "",
+       "perfectPairsPayout": 0,
+       "twentyOnePlusThree": "",
+       "twentyOnePlusThreePayout": 0
+      }
+     ],
+     "draws": [
+      {
+       "index": 0,
+       "card": "AS",
+       "to": "seat",
+       "hand": 0
+      },
+      {
+       "index": 1,
+       "card": "AS",
+       "to": "dealer",
+       "hand": -1
+      },
+      {
+       "index": 2,
+       "card": "2C",
+       "to": "seat",
+       "hand": 0
+      },
+      {
+       "index": 3,
+       "card": null,
+       "to": "hole",
+       "hand": -1
+      },
+      {
+       "index": 4,
+       "card": "JH",
+       "to": "seat",
+       "hand": 0
+      },
+      {
+       "index": 5,
+       "card": "2D",
+       "to": "seat",
+       "hand": 0
+      }
+     ],
+     "actions": [
+      "noInsurance",
+      "hit",
+      "hit"
+     ],
+     "staked": 0,
+     "payout": 0,
+     "rules": 3,
+     "createdAt": "2026-11-08T15:43:10.116105Z"
+    }
+   }
+  },
+  {
+   "url": "https://games.housebets.com/blackjack7/action",
+   "request": {
+    "generation": "0f6f8ee2-da79-4f28-b2f1-8786262ea4a4",
+    "roundId": "f26255f3-a951-42c9-8d41-abc6aa54290b",
+    "seq": 3,
+    "action": "hit"
+   },
+   "response": {
+    "game": {
+     "id": 451422,
+     "roundId": "f26255f3-a951-42c9-8d41-abc6aa54290b",
+     "publicId": "kjOtVXdooGvI44oz3oKQ8",
+     "currency": 1,
+     "active": false,
+     "seq": 4,
+     "phase": "settled",
+     "seats": 1,
+     "stakes": {
+      "main": 0,
+      "perfectPairs": 0,
+      "twentyOnePlusThree": 0
+     },
+     "dealer": {
+      "cards": [
+       "AS",
+       "4H"
+      ],
+      "value": 15,
+      "soft": true,
+      "natural": false
+     },
+     "hands": [
+      {
+       "seat": 0,
+       "split": false,
+       "cards": [
+        "AS",
+        "2C",
+        "JH",
+        "2D",
+        "QD"
+       ],
+       "value": 25,
+       "soft": false,
+       "natural": false,
+       "status": "bust",
+       "stake": 0,
+       "outcome": "lose",
+       "payout": 0
+      }
+     ],
+     "turn": -1,
+     "options": {
+      "hit": false,
+      "stand": false,
+      "double": false,
+      "split": false,
+      "cashout": false,
+      "skip": false,
+      "insurance": false,
+      "doubleCost": 0,
+      "splitCost": 0,
+      "quote": 0
+     },
+     "insurance": {
+      "offered": true,
+      "decided": true,
+      "taken": false,
+      "cost": 0,
+      "payout": 0
+     },
+     "skips": 0,
+     "skipsLeft": 10,
+     "sides": [
+      {
+       "seat": 0,
+       "perfectPairs": "",
+       "perfectPairsPayout": 0,
+       "twentyOnePlusThree": "",
+       "twentyOnePlusThreePayout": 0
+      }
+     ],
+     "draws": [
+      {
+       "index": 0,
+       "card": "AS",
+       "to": "seat",
+       "hand": 0
+      },
+      {
+       "index": 1,
+       "card": "AS",
+       "to": "dealer",
+       "hand": -1
+      },
+      {
+       "index": 2,
+       "card": "2C",
+       "to": "seat",
+       "hand": 0
+      },
+      {
+       "index": 3,
+       "card": "4H",
+       "to": "hole",
+       "hand": -1
+      },
+      {
+       "index": 4,
+       "card": "JH",
+       "to": "seat",
+       "hand": 0
+      },
+      {
+       "index": 5,
+       "card": "2D",
+       "to": "seat",
+       "hand": 0
+      },
+      {
+       "index": 6,
+       "card": "QD",
+       "to": "seat",
+       "hand": 0
+      }
+     ],
+     "actions": [
+      "noInsurance",
+      "hit",
+      "hit",
+      "hit"
+     ],
+     "staked": 0,
+     "payout": 0,
+     "rules": 3,
+     "createdAt": "2026-11-08T15:43:10.116105Z",
+     "settledAt": "2026-11-08T15:44:05.085145813Z"
+    },
+    "round": {
+     "roundId": "f26255f3-a951-42c9-8d41-abc6aa54290b",
+     "stake": 0,
+     "payout": 0,
+     "delta": 0,
+     "settledAt": 1794152645085
+    }
+   }
+  }
+ ]
+}

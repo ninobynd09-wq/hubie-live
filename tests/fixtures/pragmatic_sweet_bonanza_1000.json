@@ -1,0 +1,19 @@
+{
+  "source": "Sweet Bonanza 1000, housebets Try fun mode, Pragmatic demo server, recorded 2026-11-06 (bodies trimmed to the fields the parser reads)",
+  "exchanges": [
+    ["action=doInit&symbol=vs20fruitswx&cver=442882&index=1&counter=1&repeat=0",
+     "def_s=4,10,9&balance=100,000.00&cfgs=1&ver=3&index=1&balance_cash=100,000.00&reel_set=0&balance_bonus=0.00&na=s&c=0.10&sw=6&sver=5&bls=20,25&counter=2&ntp=0.00"],
+    ["action=doSpin&symbol=vs20fruitswx&c=0.1&l=20&sInfo=n&bl=0&index=2&counter=3&repeat=0",
+     "tw=0.00&balance=99,998.00&index=2&balance_cash=99,998.00&reel_set=0&balance_bonus=0.00&na=s&bl=0&sh=5&st=rect&c=0.10&sw=6&sver=5&counter=4&ntp=-2.00&l=20&s=11,8,10&w=0.00"],
+    ["action=doSpin&symbol=vs20fruitswx&c=0.1&l=20&sInfo=n&bl=0&index=3&counter=5&repeat=0",
+     "tw=0.00&balance=99,996.00&index=3&balance_cash=99,996.00&reel_set=0&balance_bonus=0.00&na=s&bl=0&sh=5&st=rect&c=0.10&sw=6&sver=5&counter=6&ntp=-4.00&l=20&s=11,11,7&w=0.00"],
+    ["action=doSpin&symbol=vs20fruitswx&c=0.1&l=20&sInfo=n&bl=0&index=4&counter=7&repeat=0",
+     "tw=0.80&rs_iw=0.80&balance=99,994.00&index=4&balance_cash=99,994.00&reel_set=0&s_mark=tmb~10:2,10:5&balance_bonus=0.00&na=s&l0=0~0.80~2~5~9~11~12~15~18~24&rs_p=0&bl=0&rs_c=1&sh=5&rs_m=1&st=rect&c=0.10&sw=6&sver=5&counter=8&ntp=-6.00&l=20&s=6,4,10&w=0.80"],
+    ["action=doSpin&symbol=vs20fruitswx&c=0.1&l=20&sInfo=n&bl=0&index=5&counter=9&repeat=0",
+     "tw=2.30&rs_iw=0.80&balance=99,994.00&rs_more=1&index=5&balance_cash=99,994.00&reel_set=0&balance_bonus=0.00&na=s&l0=0~1.00~5~7&l1=0~0.50~3~6&rs_p=1&bl=0&rs_c=2&rs_win=1.50&sh=5&rs_m=2&st=rect&c=0.10&sw=6&sver=5&counter=10&ntp=-6.00&l=20&s=10,4,10&w=1.50"],
+    ["action=doSpin&symbol=vs20fruitswx&c=0.1&l=20&sInfo=n&bl=0&index=6&counter=11&repeat=0",
+     "tw=2.30&rs_iw=0.80&balance=99,994.00&index=6&balance_cash=99,994.00&reel_set=0&balance_bonus=0.00&na=c&rs_t=2&bl=0&rs_win=1.50&sh=5&st=rect&c=0.10&sw=6&sver=5&counter=12&ntp=-6.00&l=20&s=8,9,9&w=0.00"],
+    ["symbol=vs20fruitswx&action=doCollect&index=7&counter=13&repeat=0",
+     "balance=99,996.30&index=7&balance_cash=99,996.30&balance_bonus=0.00&na=s&sver=5&counter=14&ntp=-3.70"]
+  ]
+}

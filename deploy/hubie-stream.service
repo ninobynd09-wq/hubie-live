@@ -1,0 +1,24 @@
+# Template. Not installed by anything in this repo. Adjust paths, then:
+#   cp deploy/hubie-stream.service /etc/systemd/system/ && systemctl enable --now hubie-stream
+[Unit]
+Description=Hubie autonomous stream
+After=network-online.target
+
+[Service]
+WorkingDirectory=/opt/hubie_stream
+EnvironmentFile=/opt/hubie_stream/.env
+ExecStart=/opt/hubie_stream/.venv/bin/python -m hubie run
+# on-failure, not always: after the automatic sign-off (credits used up / HUBIE_END_AT) the guardian exits 0 and
+# the show stays over. The show-over flag in the run dir also makes any relaunch exit 0 at once, so even
+# Restart=always could not bring it back. Next show: `python -m hubie new-show`, then systemctl start.
+Restart=on-failure
+RestartSec=3
+KillMode=control-group
+# The box also runs live bots: Hubie gets capped, runs at lower priority and is killed first if memory runs out.
+MemoryMax=3G
+CPUQuota=200%
+Nice=5
+OOMScoreAdjust=500
+
+[Install]
+WantedBy=multi-user.target

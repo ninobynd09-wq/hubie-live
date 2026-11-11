@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>Hubie Preview</title>
+<style>
+  :root { --bg: #061017; --fg: #e6f2ee; --dim: #7f9f90; --accent: #3fd0b0; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: var(--bg); color: var(--fg);
+    font: 15px/1.4 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 1280px; margin: 0 auto; padding: 12px 16px 24px; }
+  header { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 10px; }
+  h1 { font-size: 17px; margin: 0; font-weight: 600; letter-spacing: .02em; }
+  #state { font-size: 13px; color: var(--dim); white-space: nowrap; }
+  #state.live { color: var(--accent); }
+  .frame { position: relative; width: 100%; aspect-ratio: 16 / 9; background: #000; border-radius: 10px; overflow: hidden; }
+  video { position: absolute; inset: 0; width: 100%; height: 100%; background: #000; }
+  #unmute { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);
+    padding: 12px 20px; border: 0; border-radius: 999px; background: rgba(0,0,0,.72); color: #fff;
+    font: inherit; font-weight: 600; cursor: pointer; }
+  #unmute[hidden] { display: none; }
+  p.note { color: var(--dim); font-size: 13px; margin: 10px 2px 0; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Hubie, private preview</h1>
+    <span id="state">connecting...</span>
+  </header>
+  <div class="frame">
+    <video id="v" playsinline muted autoplay></video>
+    <button id="unmute" type="button">Tap for sound</button>
+  </div>
+  <p class="note">Private test stream, not on Kick. About 10 to 15 seconds behind live. If the show is stopped this page keeps retrying.</p>
+</main>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/hls.js/1.5.13/hls.min.js"></script>
+<script>
+(function () {
+  var src = "index.m3u8";
+  var v = document.getElementById("v");
+  var state = document.getElementById("state");
+  var btn = document.getElementById("unmute");
+  var hls = null, retry = null;
+
+  function show(text, live) { state.textContent = text; state.className = live ? "live" : ""; }
+  function later() { clearTimeout(retry); retry = setTimeout(start, 4000); }
+
+  btn.onclick = function () { v.muted = false; v.play().catch(function () {}); btn.hidden = true; };
+  v.addEventListener("playing", function () { show("live", true); });
+  v.addEventListener("waiting", function () { show("buffering..."); });
+
+  function start() {
+    if (hls) { hls.destroy(); hls = null; }
+    if (window.Hls && Hls.isSupported()) {
+      hls = new Hls({ liveSyncDurationCount: 2, liveMaxLatencyDurationCount: 5, maxBufferLength: 10,
+                      backBufferLength: 10, manifestLoadingMaxRetry: 2 });
+      hls.on(Hls.Events.ERROR, function (_, d) {
+        if (!d.fatal) return;
+        if (d.type === Hls.ErrorTypes.MEDIA_ERROR) { hls.recoverMediaError(); return; }
+        show("offline, retrying..."); later();
+      });
+      hls.on(Hls.Events.MANIFEST_PARSED, function () { v.play().catch(function () {}); });
+      hls.loadSource(src);
+      hls.attachMedia(v);
+    } else if (v.canPlayType("application/vnd.apple.mpegurl")) {
+      v.src = src;
+      v.onerror = function () { show("offline, retrying..."); later(); };
+      v.play().catch(function () {});
+    } else {
+      show("this browser can't play the stream");
+    }
+  }
+  start();
+})();
+</script>
+</body>
+</html>
