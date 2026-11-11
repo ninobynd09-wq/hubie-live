@@ -18,6 +18,9 @@ How each part works: [README](../README.md).
   - A Housebets account, logged in once in the game Chrome profile (`HUBIE_HB_PROFILE`).
   - An HTTP proxy for the game Chrome (`HUBIE_GAMES_PROXY`, used through the local relay in `tools/housebets/relay.py`).
 
+Why the proxy: housebets.com answers 403 to server/datacenter IPs, so the game browser on the VPS goes through an HTTP proxy.
+If the site shows its "verify you are human" page, the adapter clicks the checkbox and waits for the game to load.
+
 ## 2. Install
 
 ```bash
